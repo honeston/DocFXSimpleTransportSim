@@ -1077,6 +1077,37 @@ references:
   isSpec: "True"
   fullName: STSIM.ConfigController.SEVolume
   nameWithType: ConfigController.SEVolume
+- uid: STSIM.DictionalStrage
+  name: DictionalStrage
+  href: api/STSIM.DictionalStrage.html
+  commentId: T:STSIM.DictionalStrage
+  fullName: STSIM.DictionalStrage
+  nameWithType: DictionalStrage
+- uid: STSIM.DictionalStrage.floatValue
+  name: floatValue
+  href: api/STSIM.DictionalStrage.html#STSIM_DictionalStrage_floatValue
+  commentId: F:STSIM.DictionalStrage.floatValue
+  fullName: STSIM.DictionalStrage.floatValue
+  nameWithType: DictionalStrage.floatValue
+- uid: STSIM.DictionalStrage.save
+  name: save()
+  href: api/STSIM.DictionalStrage.html#STSIM_DictionalStrage_save
+  commentId: M:STSIM.DictionalStrage.save
+  fullName: STSIM.DictionalStrage.save()
+  nameWithType: DictionalStrage.save()
+- uid: STSIM.DictionalStrage.save*
+  name: save
+  href: api/STSIM.DictionalStrage.html#STSIM_DictionalStrage_save_
+  commentId: Overload:STSIM.DictionalStrage.save
+  isSpec: "True"
+  fullName: STSIM.DictionalStrage.save
+  nameWithType: DictionalStrage.save
+- uid: STSIM.DictionalStrage.stringValue
+  name: stringValue
+  href: api/STSIM.DictionalStrage.html#STSIM_DictionalStrage_stringValue
+  commentId: F:STSIM.DictionalStrage.stringValue
+  fullName: STSIM.DictionalStrage.stringValue
+  nameWithType: DictionalStrage.stringValue
 - uid: STSIM.DrawLine
   name: DrawLine
   href: api/STSIM.DrawLine.html
@@ -2776,6 +2807,44 @@ references:
   isSpec: "True"
   fullName: STSIM.RouteSearch.getSearchNode
   nameWithType: RouteSearch.getSearchNode
+- uid: STSIM.SaveManeger
+  name: SaveManeger
+  href: api/STSIM.SaveManeger.html
+  commentId: T:STSIM.SaveManeger
+  fullName: STSIM.SaveManeger
+  nameWithType: SaveManeger
+- uid: STSIM.SaveManeger.LoadData*
+  name: LoadData
+  href: api/STSIM.SaveManeger.html#STSIM_SaveManeger_LoadData_
+  commentId: Overload:STSIM.SaveManeger.LoadData
+  isSpec: "True"
+  fullName: STSIM.SaveManeger.LoadData
+  nameWithType: SaveManeger.LoadData
+- uid: STSIM.SaveManeger.LoadData``1(System.String)
+  name: LoadData<Type>(String)
+  href: api/STSIM.SaveManeger.html#STSIM_SaveManeger_LoadData__1_System_String_
+  commentId: M:STSIM.SaveManeger.LoadData``1(System.String)
+  name.vb: LoadData(Of Type)(String)
+  fullName: STSIM.SaveManeger.LoadData<Type>(System.String)
+  fullName.vb: STSIM.SaveManeger.LoadData(Of Type)(System.String)
+  nameWithType: SaveManeger.LoadData<Type>(String)
+  nameWithType.vb: SaveManeger.LoadData(Of Type)(String)
+- uid: STSIM.SaveManeger.saveData*
+  name: saveData
+  href: api/STSIM.SaveManeger.html#STSIM_SaveManeger_saveData_
+  commentId: Overload:STSIM.SaveManeger.saveData
+  isSpec: "True"
+  fullName: STSIM.SaveManeger.saveData
+  nameWithType: SaveManeger.saveData
+- uid: STSIM.SaveManeger.saveData``1(``0,System.String)
+  name: saveData<type>(type, String)
+  href: api/STSIM.SaveManeger.html#STSIM_SaveManeger_saveData__1___0_System_String_
+  commentId: M:STSIM.SaveManeger.saveData``1(``0,System.String)
+  name.vb: saveData(Of type)(type, String)
+  fullName: STSIM.SaveManeger.saveData<type>(type, System.String)
+  fullName.vb: STSIM.SaveManeger.saveData(Of type)(type, System.String)
+  nameWithType: SaveManeger.saveData<type>(type, String)
+  nameWithType.vb: SaveManeger.saveData(Of type)(type, String)
 - uid: STSIM.SceneLoader
   name: SceneLoader
   href: api/STSIM.SceneLoader.html
