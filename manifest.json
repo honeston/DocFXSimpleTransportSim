@@ -1,0 +1,1220 @@
+{
+  "homepages": [],
+  "source_base_path": "H:/FreeSpace/apiSite/docfx/DocFXSimpleTransportSim",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.AppUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.AppUtil.html",
+          "hash": "am1rzIuTRkhxIYgGcuhrmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.AudioManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.AudioManager.html",
+          "hash": "RisnAEFO3MF3cMFlqpqwfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.BoxSearchCar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.BoxSearchCar.html",
+          "hash": "pmj+bKR/YvHa1YMXCG7ymg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.CameraController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.CameraController.html",
+          "hash": "WRLkbivoW91G/JRW43q1Xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.CarAI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.CarAI.html",
+          "hash": "kE5dh8evAuZyBqhsbfqK0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.CarControllBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.CarControllBase.html",
+          "hash": "fSdtTPA7qsrMxIqAvdf/jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.CarInfo.RunSite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.CarInfo.RunSite.html",
+          "hash": "ncQloetr1MvP8mfOBDlhSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.CarInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.CarInfo.html",
+          "hash": "zd3QL3efBRKInMuBaA96wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.CarMoveControll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.CarMoveControll.html",
+          "hash": "ohy7nW0N3nVCaV5WymMaMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.CarSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.CarSpawner.html",
+          "hash": "d4R52U6mGcutm5rPteME2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.CityInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.CityInfo.html",
+          "hash": "A/2xtud9A9rav17pwUJvoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.ConfigController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.ConfigController.html",
+          "hash": "JbwYGfCyg1xZrzt6WDOmFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.DrawLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.DrawLine.html",
+          "hash": "6/xsOGfqO/T5v5wjo02REg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.EditMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.EditMode.html",
+          "hash": "DBq5kTMX50o9pIDbwk1qgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.GameGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.GameGUI.html",
+          "hash": "ozgmcExfhAVoY0cEuNj6VA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.GameManeger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.GameManeger.html",
+          "hash": "frcyR7pB0SN1s4wgE9ZD9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.GameProgressCntroll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.GameProgressCntroll.html",
+          "hash": "YBuoTtQD+i/LGs4NHHkMQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.GroundSystemControll.Phase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.GroundSystemControll.Phase.html",
+          "hash": "DltNo9MRNA1tvJzKOiiktw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.GroundSystemControll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.GroundSystemControll.html",
+          "hash": "GD0drNPcLWwePb4IpP05lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.InterMesh.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.InterMesh.html",
+          "hash": "4wbjnpzxNwAfMSJUNj3OIg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.IntersectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.IntersectionInfo.html",
+          "hash": "Fs0I/r2blBO5BY3GiVGp0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.NodeLinkDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.NodeLinkDate.html",
+          "hash": "YPyUgckIOFji1DAU4eJTCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.NodeListManege.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.NodeListManege.html",
+          "hash": "AJNLBbngN2tdppDmsIJjrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.NodoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.NodoInfo.html",
+          "hash": "7uCAyM3U1fA/VIZhuyFN2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.PausableSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.PausableSystem.html",
+          "hash": "2voMT7Q/LH4RIuUlyqXFSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.Rigidbody2DVelocity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.Rigidbody2DVelocity.html",
+          "hash": "IZ+nclpsza2i+RaOuPOZ8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RigidbodyVelocity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RigidbodyVelocity.html",
+          "hash": "xMe34uGid4FhmJt3o4CmUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RoadInfo.RoadDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RoadInfo.RoadDirection.html",
+          "hash": "wt0Md+ewc2qOdaTCneIT/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RoadInfo.RoadSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RoadInfo.RoadSide.html",
+          "hash": "LtNgXYPuFQalU6ZYF0JzwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RoadInfo.RoadType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RoadInfo.RoadType.html",
+          "hash": "m7SWgPbAVhbPOZtmdQNxug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RoadInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RoadInfo.html",
+          "hash": "SOvj4Eeuj8PujCTWw0+pxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RoadLineRender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RoadLineRender.html",
+          "hash": "6EqzIgkVd7FtqrMIZfbPWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RouteSearch.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RouteSearch.html",
+          "hash": "YRPR7Fr+NlC0LnFxSFv+fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.SceneLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.SceneLoader.html",
+          "hash": "xrlzdvH5xLPBgun68QJ53A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.ScoreScrollController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.ScoreScrollController.html",
+          "hash": "o00BcPxWaeWMjqaYU2HP/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.SearchCar.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.SearchCar.html",
+          "hash": "IomQo1yOxOLMtW48uGZZTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.SearchNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.SearchNode.html",
+          "hash": "Lj1ny2PhGCvgvUDpiB3wlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.ShadowControll.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.ShadowControll.html",
+          "hash": "BhkypeS8E2KqNn8hg2YiHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.SignType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.SignType.html",
+          "hash": "H+Bof8bEV90g94UQGS6q8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.TitleCarMove.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.TitleCarMove.html",
+          "hash": "1s6zQsRr1pNHlO6la3PbRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.TitleCarsponer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.TitleCarsponer.html",
+          "hash": "6H6SdF2X8bQ8Cudj8VrlYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.TitleGuiController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.TitleGuiController.html",
+          "hash": "QkXDrxdDtqaK3xktwOgKAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.TouchInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.TouchInfo.html",
+          "hash": "1RYznZ24XZUBhktfxWNfWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.TrafficLightController.SectionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.TrafficLightController.SectionInfo.html",
+          "hash": "jL86JeuN8pl+jP/B+RBSgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.TrafficLightController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.TrafficLightController.html",
+          "hash": "uhNlXV+vgYMo7hxjKspp6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.TrafficSide.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.TrafficSide.html",
+          "hash": "fSckO+xNU0d4nkSZR8j6uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.html",
+          "hash": "PWGekMOd2YgI44q+Cfli4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark01.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark01.html",
+          "hash": "23gBR6EA9ps/ZffoMV2awA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark01_UGUI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark01_UGUI.html",
+          "hash": "w+e1XZFkBZ0FENgwpqmVZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark02.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark02.html",
+          "hash": "68OYF3E+0YCdf7jMiTC/NA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark03.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark03.html",
+          "hash": "UJFxpUuwXIsSScfCRhvVxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.Benchmark04.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.Benchmark04.html",
+          "hash": "wM+0Wb/r6GMKWWeSB4+W2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.CameraController.CameraModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.CameraController.CameraModes.html",
+          "hash": "p/ySCzRIvymYzLJaFZiygw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.CameraController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.CameraController.html",
+          "hash": "PEG9Z3r2u6+s7lMN6aTAwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.ObjectSpin.MotionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.ObjectSpin.MotionType.html",
+          "hash": "2p3KmzAn8XEW0D6Gq6Jajw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.ObjectSpin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.ObjectSpin.html",
+          "hash": "oEgO85Hc55jciaiIU6DeoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.ShaderPropAnimator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.ShaderPropAnimator.html",
+          "hash": "i8xahwyjp3uUCvQrKCUlyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.SimpleScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.SimpleScript.html",
+          "hash": "zrCUIe9LbEjAQrm7LCf+tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.SkewTextExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.SkewTextExample.html",
+          "hash": "Lk8VEYN5TtXofK8LIFCMKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_ExampleScript_01.objectType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_ExampleScript_01.objectType.html",
+          "hash": "1HMOnTVJL8GkrzJV+5KNmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_ExampleScript_01.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_ExampleScript_01.html",
+          "hash": "7zpJtr6iksTQCMSWz2WkFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_FrameRateCounter.FpsCounterAnchorPositions.html",
+          "hash": "96JhtpFn4CZqkiQzpNbKdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_FrameRateCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_FrameRateCounter.html",
+          "hash": "NWvqNaAOsYQ89h8LGZwVvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_TextEventCheck.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_TextEventCheck.html",
+          "hash": "XIcUeaSwtBSpRayK3ufJjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_TextInfoDebugTool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_TextInfoDebugTool.html",
+          "hash": "wOvXLBS+g/aUG9gXOSSVAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_TextSelector_A.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_TextSelector_A.html",
+          "hash": "PmWk2snH+v3+mXbLoot/ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_TextSelector_B.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_TextSelector_B.html",
+          "hash": "BlsZXER4ywaYBwvzygxuUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_UiFrameRateCounter.FpsCounterAnchorPositions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_UiFrameRateCounter.FpsCounterAnchorPositions.html",
+          "hash": "C/p1wNyi6AF/5q88UgmzWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMP_UiFrameRateCounter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMP_UiFrameRateCounter.html",
+          "hash": "Zdr5DDWMVXwpzMGMBgbUNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMPro_InstructionOverlay.FpsCounterAnchorPositions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMPro_InstructionOverlay.FpsCounterAnchorPositions.html",
+          "hash": "2YDp9mI0fJe9LA6LtAGUUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TMPro_InstructionOverlay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TMPro_InstructionOverlay.html",
+          "hash": "yykN0dtViyfrAXIB89xjxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TeleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TeleType.html",
+          "hash": "2pTZOXOZKmCfvOn4tT5nNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TextConsoleSimulator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TextConsoleSimulator.html",
+          "hash": "aUzNMdLUeMQkf0luw+8whw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TextMeshProFloatingText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TextMeshProFloatingText.html",
+          "hash": "HZK4dp+Hfz3zQuLfElDTBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.TextMeshSpawner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.TextMeshSpawner.html",
+          "hash": "vKDzxkxAfn9KBQtwnJf75A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexColorCycler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexColorCycler.html",
+          "hash": "8Eg+ALwV1/yYluZo9ERadA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexJitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexJitter.html",
+          "hash": "jG1zGSNyfj/9C9BXlqLFCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexShakeA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexShakeA.html",
+          "hash": "5SV8vVvrGFPWOgaukNz03Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexShakeB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexShakeB.html",
+          "hash": "G3svv4kPQkIc9MehbO6gGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.VertexZoom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.VertexZoom.html",
+          "hash": "GuTNhlFsDun0Nz07O8+PpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.WarpTextExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.WarpTextExample.html",
+          "hash": "1ds1r3kVdWivdy6pHJD03Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.Examples.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.Examples.html",
+          "hash": "sZqtauH0s0v0fNV9T3CNOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_DigitValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_DigitValidator.html",
+          "hash": "WQaI4Z+S5+9rfvJHUuvTNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_PhoneNumberValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_PhoneNumberValidator.html",
+          "hash": "wLliqxcY1tanynRipbXSaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.CharacterSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.CharacterSelectionEvent.html",
+          "hash": "BGhmTsDC9+f+CknhO29FFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.LineSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.LineSelectionEvent.html",
+          "hash": "/wzw9+KeCg/SbpdTKUQ5NQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.LinkSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.LinkSelectionEvent.html",
+          "hash": "l6qAOKlBXMScbV6be7BJ1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.SpriteSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.SpriteSelectionEvent.html",
+          "hash": "Hk4z45SPXx/CO3GN/blrLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.WordSelectionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.WordSelectionEvent.html",
+          "hash": "qMMg5Powj5GQYB/cMChzmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.TMP_TextEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.TMP_TextEventHandler.html",
+          "hash": "ERZx4AYOdVhwvukCyh0VhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TMPro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TMPro.html",
+          "hash": "dLbAADwYiNeV2NjUwGerAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "BSjbFJQW3g1AV+OlIJQ/cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "iHnA2RZKAp/vWIh/+vpw6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "xYBLg8M2HaLU6gAejAD0kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "zCmvknXpIfyaxrHbeiZEPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "+rHUkRZHZRi5gd1aTU6lJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 91,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,981 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class AppUtil
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class AppUtil
+   ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="STSIM.AppUtil">
+  
+  
+  <h1 id="STSIM_AppUtil" data-uid="STSIM.AppUtil" class="text-break">Class AppUtil
+  </h1>
+  <div class="markdown level0 summary"><p>アプリ内のユーティリティークラス。</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">AppUtil</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="STSIM.html">STSIM</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="STSIM_AppUtil_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AppUtil</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="STSIM_AppUtil_ABToCDIntersection_" data-uid="STSIM.AppUtil.ABToCDIntersection*"></a>
+  <h4 id="STSIM_AppUtil_ABToCDIntersection_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2__" data-uid="STSIM.AppUtil.ABToCDIntersection(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2@)">ABToCDIntersection(Vector2, Vector2, Vector2, Vector2, out Vector2)</h4>
+  <div class="markdown level1 summary"><p>線分ABと線分CD間の交点（いくらか引き伸ばして交点を探る）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ABToCDIntersection(Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, out Vector2 intersection)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">p1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">p2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">p3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">p4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">intersection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>座標</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_deltaGameobjPos_" data-uid="STSIM.AppUtil.deltaGameobjPos*"></a>
+  <h4 id="STSIM_AppUtil_deltaGameobjPos_UnityEngine_GameObject_UnityEngine_GameObject_" data-uid="STSIM.AppUtil.deltaGameobjPos(UnityEngine.GameObject,UnityEngine.GameObject)">deltaGameobjPos(GameObject, GameObject)</h4>
+  <div class="markdown level1 summary"><p>ゲームオブジェクト間の距離を返す</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float deltaGameobjPos(GameObject a, GameObject b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>ゲームオブジェクト間の距離</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_directionToDirectiom_" data-uid="STSIM.AppUtil.directionToDirectiom*"></a>
+  <h4 id="STSIM_AppUtil_directionToDirectiom_UnityEngine_Quaternion_UnityEngine_Quaternion_" data-uid="STSIM.AppUtil.directionToDirectiom(UnityEngine.Quaternion,UnityEngine.Quaternion)">directionToDirectiom(Quaternion, Quaternion)</h4>
+  <div class="markdown level1 summary"><p>２つの角度の差分を返す</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float directionToDirectiom(Quaternion a, Quaternion b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>２つの角度の差分(-180to180)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_fingerMove_" data-uid="STSIM.AppUtil.fingerMove*"></a>
+  <h4 id="STSIM_AppUtil_fingerMove" data-uid="STSIM.AppUtil.fingerMove">fingerMove()</h4>
+  <div class="markdown level1 summary"><p>２本指の移動操作</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 fingerMove()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><p>移動量（世界座標）</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_GetAngle_" data-uid="STSIM.AppUtil.GetAngle*"></a>
+  <h4 id="STSIM_AppUtil_GetAngle_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="STSIM.AppUtil.GetAngle(UnityEngine.Vector2,UnityEngine.Vector2)">GetAngle(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetAngle(Vector2 start, Vector2 target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_getPointQB_" data-uid="STSIM.AppUtil.getPointQB*"></a>
+  <h4 id="STSIM_AppUtil_getPointQB_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="STSIM.AppUtil.getPointQB(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)">getPointQB(Single, Vector2, Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>二次元ベジェ曲線</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 getPointQB(float t, Vector2 p1, Vector2 p2, Vector2 p3)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>0～1</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">p1</span></td>
+        <td><p>始点</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">p2</span></td>
+        <td><p>制御点</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">p3</span></td>
+        <td><p>終点</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><p>曲線上の点</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_getPointQBControll_" data-uid="STSIM.AppUtil.getPointQBControll*"></a>
+  <h4 id="STSIM_AppUtil_getPointQBControll_System_Single_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="STSIM.AppUtil.getPointQBControll(System.Single,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)">getPointQBControll(Single, Vector2, Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>二次元ベジェ曲線制御点逆算</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 getPointQBControll(float t, Vector2 p1, Vector2 p3, Vector2 outp)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>0～1</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">p1</span></td>
+        <td><p>始点</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">p3</span></td>
+        <td><p>終点</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">outp</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><p>制御点</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_GetScrollValue_" data-uid="STSIM.AppUtil.GetScrollValue*"></a>
+  <h4 id="STSIM_AppUtil_GetScrollValue" data-uid="STSIM.AppUtil.GetScrollValue">GetScrollValue()</h4>
+  <div class="markdown level1 summary"><p>スクロールの移動量を返す。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (float, Vector2) GetScrollValue()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Single</span>, <span class="xref">UnityEngine.Vector2</span>&gt;</td>
+        <td><p>スクロール値</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_GetTouch_" data-uid="STSIM.AppUtil.GetTouch*"></a>
+  <h4 id="STSIM_AppUtil_GetTouch" data-uid="STSIM.AppUtil.GetTouch">GetTouch()</h4>
+  <div class="markdown level1 summary"><p>タッチ情報を取得(エディタと実機を考慮)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TouchInfo GetTouch()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="STSIM.TouchInfo.html">TouchInfo</a></td>
+        <td><p>タッチ情報。タッチされていない場合は null</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_GetTouchPosition_" data-uid="STSIM.AppUtil.GetTouchPosition*"></a>
+  <h4 id="STSIM_AppUtil_GetTouchPosition" data-uid="STSIM.AppUtil.GetTouchPosition">GetTouchPosition()</h4>
+  <div class="markdown level1 summary"><p>タッチポジションを取得(エディタと実機を考慮)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 GetTouchPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><p>タッチポジション。タッチされていない場合は (0, 0, 0)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_GetTouchWorldPosition_" data-uid="STSIM.AppUtil.GetTouchWorldPosition*"></a>
+  <h4 id="STSIM_AppUtil_GetTouchWorldPosition_UnityEngine_Camera_" data-uid="STSIM.AppUtil.GetTouchWorldPosition(UnityEngine.Camera)">GetTouchWorldPosition(Camera)</h4>
+  <div class="markdown level1 summary"><p>タッチワールドポジションを取得(エディタと実機を考慮)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 GetTouchWorldPosition(Camera camera)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Camera</span></td>
+        <td><span class="parametername">camera</span></td>
+        <td><p>カメラ</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><p>タッチワールドポジション。タッチされていない場合は (0, 0, 0)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_PerpendicularFootPoint_" data-uid="STSIM.AppUtil.PerpendicularFootPoint*"></a>
+  <h4 id="STSIM_AppUtil_PerpendicularFootPoint_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_" data-uid="STSIM.AppUtil.PerpendicularFootPoint(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">PerpendicularFootPoint(Vector3, Vector3, Vector3)</h4>
+  <div class="markdown level1 summary"><p>点Pから直線ABに下ろした垂線の足の座標を返す</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 PerpendicularFootPoint(Vector3 a, Vector3 b, Vector3 p)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">p</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><p>座標</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_point3Angler_" data-uid="STSIM.AppUtil.point3Angler*"></a>
+  <h4 id="STSIM_AppUtil_point3Angler_UnityEngine_GameObject_UnityEngine_GameObject_UnityEngine_GameObject_" data-uid="STSIM.AppUtil.point3Angler(UnityEngine.GameObject,UnityEngine.GameObject,UnityEngine.GameObject)">point3Angler(GameObject, GameObject, GameObject)</h4>
+  <div class="markdown level1 summary"><p>3点間の角度を返すA=&gt;B=&gt;C</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float point3Angler(GameObject a, GameObject b, GameObject c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>角度(0to180)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_point3Angler_" data-uid="STSIM.AppUtil.point3Angler*"></a>
+  <h4 id="STSIM_AppUtil_point3Angler_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="STSIM.AppUtil.point3Angler(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)">point3Angler(Vector2, Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>3点間の角度を返すA=&gt;B=&gt;C</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float point3Angler(Vector2 a, Vector2 b, Vector2 c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">a</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">b</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">c</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>角度(-180to180)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_RandomColorPick_" data-uid="STSIM.AppUtil.RandomColorPick*"></a>
+  <h4 id="STSIM_AppUtil_RandomColorPick" data-uid="STSIM.AppUtil.RandomColorPick">RandomColorPick()</h4>
+  <div class="markdown level1 summary"><p>街の色をランダムに作る</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color RandomColorPick()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_RandomColorPick_" data-uid="STSIM.AppUtil.RandomColorPick*"></a>
+  <h4 id="STSIM_AppUtil_RandomColorPick_System_Single_System_Single_System_Single_" data-uid="STSIM.AppUtil.RandomColorPick(System.Single,System.Single,System.Single)">RandomColorPick(Single, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>ランダムに色を作る</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color RandomColorPick(float bright, float saturation, float alfa)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">bright</span></td>
+        <td><p>明るさ</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">saturation</span></td>
+        <td><p>彩度</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">alfa</span></td>
+        <td><p>透明度0~1</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_targetDirection_" data-uid="STSIM.AppUtil.targetDirection*"></a>
+  <h4 id="STSIM_AppUtil_targetDirection_UnityEngine_GameObject_UnityEngine_GameObject_" data-uid="STSIM.AppUtil.targetDirection(UnityEngine.GameObject,UnityEngine.GameObject)">targetDirection(GameObject, GameObject)</h4>
+  <div class="markdown level1 summary"><p>対象までの角度を返す(Gameobject)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion targetDirection(GameObject my, GameObject target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">my</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><p>対象までの角度</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_AppUtil_targetDirection_" data-uid="STSIM.AppUtil.targetDirection*"></a>
+  <h4 id="STSIM_AppUtil_targetDirection_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="STSIM.AppUtil.targetDirection(UnityEngine.Vector2,UnityEngine.Vector2)">targetDirection(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"><p>対象までの角度を返す(vec2)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion targetDirection(Vector2 my, Vector2 target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">my</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><p>対象までの角度</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
