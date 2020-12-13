@@ -1077,6 +1077,148 @@ references:
   isSpec: "True"
   fullName: STSIM.ConfigController.SEVolume
   nameWithType: ConfigController.SEVolume
+- uid: STSIM.DayController
+  name: DayController
+  href: api/STSIM.DayController.html
+  commentId: T:STSIM.DayController
+  fullName: STSIM.DayController
+  nameWithType: DayController
+- uid: STSIM.DayController.countEnd
+  name: countEnd()
+  href: api/STSIM.DayController.html#STSIM_DayController_countEnd
+  commentId: M:STSIM.DayController.countEnd
+  fullName: STSIM.DayController.countEnd()
+  nameWithType: DayController.countEnd()
+- uid: STSIM.DayController.countEnd*
+  name: countEnd
+  href: api/STSIM.DayController.html#STSIM_DayController_countEnd_
+  commentId: Overload:STSIM.DayController.countEnd
+  isSpec: "True"
+  fullName: STSIM.DayController.countEnd
+  nameWithType: DayController.countEnd
+- uid: STSIM.DayController.countReset
+  name: countReset()
+  href: api/STSIM.DayController.html#STSIM_DayController_countReset
+  commentId: M:STSIM.DayController.countReset
+  fullName: STSIM.DayController.countReset()
+  nameWithType: DayController.countReset()
+- uid: STSIM.DayController.countReset*
+  name: countReset
+  href: api/STSIM.DayController.html#STSIM_DayController_countReset_
+  commentId: Overload:STSIM.DayController.countReset
+  isSpec: "True"
+  fullName: STSIM.DayController.countReset
+  nameWithType: DayController.countReset
+- uid: STSIM.DayController.countStart
+  name: countStart()
+  href: api/STSIM.DayController.html#STSIM_DayController_countStart
+  commentId: M:STSIM.DayController.countStart
+  fullName: STSIM.DayController.countStart()
+  nameWithType: DayController.countStart()
+- uid: STSIM.DayController.countStart*
+  name: countStart
+  href: api/STSIM.DayController.html#STSIM_DayController_countStart_
+  commentId: Overload:STSIM.DayController.countStart
+  isSpec: "True"
+  fullName: STSIM.DayController.countStart
+  nameWithType: DayController.countStart
+- uid: STSIM.DayController.countStop
+  name: countStop()
+  href: api/STSIM.DayController.html#STSIM_DayController_countStop
+  commentId: M:STSIM.DayController.countStop
+  fullName: STSIM.DayController.countStop()
+  nameWithType: DayController.countStop()
+- uid: STSIM.DayController.countStop*
+  name: countStop
+  href: api/STSIM.DayController.html#STSIM_DayController_countStop_
+  commentId: Overload:STSIM.DayController.countStop
+  isSpec: "True"
+  fullName: STSIM.DayController.countStop
+  nameWithType: DayController.countStop
+- uid: STSIM.DayController.gameGUI
+  name: gameGUI
+  href: api/STSIM.DayController.html#STSIM_DayController_gameGUI
+  commentId: F:STSIM.DayController.gameGUI
+  fullName: STSIM.DayController.gameGUI
+  nameWithType: DayController.gameGUI
+- uid: STSIM.DayController.getDay
+  name: getDay()
+  href: api/STSIM.DayController.html#STSIM_DayController_getDay
+  commentId: M:STSIM.DayController.getDay
+  fullName: STSIM.DayController.getDay()
+  nameWithType: DayController.getDay()
+- uid: STSIM.DayController.getDay*
+  name: getDay
+  href: api/STSIM.DayController.html#STSIM_DayController_getDay_
+  commentId: Overload:STSIM.DayController.getDay
+  isSpec: "True"
+  fullName: STSIM.DayController.getDay
+  nameWithType: DayController.getDay
+- uid: STSIM.DayController.getHour
+  name: getHour()
+  href: api/STSIM.DayController.html#STSIM_DayController_getHour
+  commentId: M:STSIM.DayController.getHour
+  fullName: STSIM.DayController.getHour()
+  nameWithType: DayController.getHour()
+- uid: STSIM.DayController.getHour*
+  name: getHour
+  href: api/STSIM.DayController.html#STSIM_DayController_getHour_
+  commentId: Overload:STSIM.DayController.getHour
+  isSpec: "True"
+  fullName: STSIM.DayController.getHour
+  nameWithType: DayController.getHour
+- uid: STSIM.DayController.getSecond
+  name: getSecond()
+  href: api/STSIM.DayController.html#STSIM_DayController_getSecond
+  commentId: M:STSIM.DayController.getSecond
+  fullName: STSIM.DayController.getSecond()
+  nameWithType: DayController.getSecond()
+- uid: STSIM.DayController.getSecond*
+  name: getSecond
+  href: api/STSIM.DayController.html#STSIM_DayController_getSecond_
+  commentId: Overload:STSIM.DayController.getSecond
+  isSpec: "True"
+  fullName: STSIM.DayController.getSecond
+  nameWithType: DayController.getSecond
+- uid: STSIM.DayController.timeCountSecond
+  name: timeCountSecond
+  href: api/STSIM.DayController.html#STSIM_DayController_timeCountSecond
+  commentId: P:STSIM.DayController.timeCountSecond
+  fullName: STSIM.DayController.timeCountSecond
+  nameWithType: DayController.timeCountSecond
+- uid: STSIM.DayController.timeCountSecond*
+  name: timeCountSecond
+  href: api/STSIM.DayController.html#STSIM_DayController_timeCountSecond_
+  commentId: Overload:STSIM.DayController.timeCountSecond
+  isSpec: "True"
+  fullName: STSIM.DayController.timeCountSecond
+  nameWithType: DayController.timeCountSecond
+- uid: STSIM.DayController.timeScaleDay
+  name: timeScaleDay
+  href: api/STSIM.DayController.html#STSIM_DayController_timeScaleDay
+  commentId: P:STSIM.DayController.timeScaleDay
+  fullName: STSIM.DayController.timeScaleDay
+  nameWithType: DayController.timeScaleDay
+- uid: STSIM.DayController.timeScaleDay*
+  name: timeScaleDay
+  href: api/STSIM.DayController.html#STSIM_DayController_timeScaleDay_
+  commentId: Overload:STSIM.DayController.timeScaleDay
+  isSpec: "True"
+  fullName: STSIM.DayController.timeScaleDay
+  nameWithType: DayController.timeScaleDay
+- uid: STSIM.DayController.timeScaleHour
+  name: timeScaleHour
+  href: api/STSIM.DayController.html#STSIM_DayController_timeScaleHour
+  commentId: P:STSIM.DayController.timeScaleHour
+  fullName: STSIM.DayController.timeScaleHour
+  nameWithType: DayController.timeScaleHour
+- uid: STSIM.DayController.timeScaleHour*
+  name: timeScaleHour
+  href: api/STSIM.DayController.html#STSIM_DayController_timeScaleHour_
+  commentId: Overload:STSIM.DayController.timeScaleHour
+  isSpec: "True"
+  fullName: STSIM.DayController.timeScaleHour
+  nameWithType: DayController.timeScaleHour
 - uid: STSIM.DictionalStrage
   name: DictionalStrage
   href: api/STSIM.DictionalStrage.html
@@ -1163,6 +1305,12 @@ references:
   isSpec: "True"
   fullName: STSIM.GameGUI.createHelthIcon
   nameWithType: GameGUI.createHelthIcon
+- uid: STSIM.GameGUI.dayText
+  name: dayText
+  href: api/STSIM.GameGUI.html#STSIM_GameGUI_dayText
+  commentId: F:STSIM.GameGUI.dayText
+  fullName: STSIM.GameGUI.dayText
+  nameWithType: GameGUI.dayText
 - uid: STSIM.GameGUI.editModeMoveToggle
   name: editModeMoveToggle
   href: api/STSIM.GameGUI.html#STSIM_GameGUI_editModeMoveToggle
@@ -1175,6 +1323,12 @@ references:
   commentId: F:STSIM.GameGUI.glassObjectPrefab
   fullName: STSIM.GameGUI.glassObjectPrefab
   nameWithType: GameGUI.glassObjectPrefab
+- uid: STSIM.GameGUI.hand
+  name: hand
+  href: api/STSIM.GameGUI.html#STSIM_GameGUI_hand
+  commentId: F:STSIM.GameGUI.hand
+  fullName: STSIM.GameGUI.hand
+  nameWithType: GameGUI.hand
 - uid: STSIM.GameGUI.moneyGUI
   name: moneyGUI
   href: api/STSIM.GameGUI.html#STSIM_GameGUI_moneyGUI
@@ -1315,6 +1469,32 @@ references:
   commentId: F:STSIM.GameGUI.scoreTextPrefab
   fullName: STSIM.GameGUI.scoreTextPrefab
   nameWithType: GameGUI.scoreTextPrefab
+- uid: STSIM.GameGUI.setDayText(System.Int32)
+  name: setDayText(Int32)
+  href: api/STSIM.GameGUI.html#STSIM_GameGUI_setDayText_System_Int32_
+  commentId: M:STSIM.GameGUI.setDayText(System.Int32)
+  fullName: STSIM.GameGUI.setDayText(System.Int32)
+  nameWithType: GameGUI.setDayText(Int32)
+- uid: STSIM.GameGUI.setDayText*
+  name: setDayText
+  href: api/STSIM.GameGUI.html#STSIM_GameGUI_setDayText_
+  commentId: Overload:STSIM.GameGUI.setDayText
+  isSpec: "True"
+  fullName: STSIM.GameGUI.setDayText
+  nameWithType: GameGUI.setDayText
+- uid: STSIM.GameGUI.setWath(System.Single,System.Single)
+  name: setWath(Single, Single)
+  href: api/STSIM.GameGUI.html#STSIM_GameGUI_setWath_System_Single_System_Single_
+  commentId: M:STSIM.GameGUI.setWath(System.Single,System.Single)
+  fullName: STSIM.GameGUI.setWath(System.Single, System.Single)
+  nameWithType: GameGUI.setWath(Single, Single)
+- uid: STSIM.GameGUI.setWath*
+  name: setWath
+  href: api/STSIM.GameGUI.html#STSIM_GameGUI_setWath_
+  commentId: Overload:STSIM.GameGUI.setWath
+  isSpec: "True"
+  fullName: STSIM.GameGUI.setWath
+  nameWithType: GameGUI.setWath
 - uid: STSIM.GameGUI.updateHelthIcon(System.Int32,System.Boolean)
   name: updateHelthIcon(Int32, Boolean)
   href: api/STSIM.GameGUI.html#STSIM_GameGUI_updateHelthIcon_System_Int32_System_Boolean_
@@ -1437,19 +1617,6 @@ references:
   isSpec: "True"
   fullName: STSIM.GameManeger.carCreate
   nameWithType: GameManeger.carCreate
-- uid: STSIM.GameManeger.carDebugPos(UnityEngine.Vector2)
-  name: carDebugPos(Vector2)
-  href: api/STSIM.GameManeger.html#STSIM_GameManeger_carDebugPos_UnityEngine_Vector2_
-  commentId: M:STSIM.GameManeger.carDebugPos(UnityEngine.Vector2)
-  fullName: STSIM.GameManeger.carDebugPos(UnityEngine.Vector2)
-  nameWithType: GameManeger.carDebugPos(Vector2)
-- uid: STSIM.GameManeger.carDebugPos*
-  name: carDebugPos
-  href: api/STSIM.GameManeger.html#STSIM_GameManeger_carDebugPos_
-  commentId: Overload:STSIM.GameManeger.carDebugPos
-  isSpec: "True"
-  fullName: STSIM.GameManeger.carDebugPos
-  nameWithType: GameManeger.carDebugPos
 - uid: STSIM.GameManeger.carListObject
   name: carListObject
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_carListObject
@@ -1499,6 +1666,25 @@ references:
   commentId: F:STSIM.GameManeger.CONFRICTIN_DESPORN_TIME
   fullName: STSIM.GameManeger.CONFRICTIN_DESPORN_TIME
   nameWithType: GameManeger.CONFRICTIN_DESPORN_TIME
+- uid: STSIM.GameManeger.createDebugPoint(UnityEngine.Vector2)
+  name: createDebugPoint(Vector2)
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_createDebugPoint_UnityEngine_Vector2_
+  commentId: M:STSIM.GameManeger.createDebugPoint(UnityEngine.Vector2)
+  fullName: STSIM.GameManeger.createDebugPoint(UnityEngine.Vector2)
+  nameWithType: GameManeger.createDebugPoint(Vector2)
+- uid: STSIM.GameManeger.createDebugPoint*
+  name: createDebugPoint
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_createDebugPoint_
+  commentId: Overload:STSIM.GameManeger.createDebugPoint
+  isSpec: "True"
+  fullName: STSIM.GameManeger.createDebugPoint
+  nameWithType: GameManeger.createDebugPoint
+- uid: STSIM.GameManeger.debugMode
+  name: debugMode
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_debugMode
+  commentId: F:STSIM.GameManeger.debugMode
+  fullName: STSIM.GameManeger.debugMode
+  nameWithType: GameManeger.debugMode
 - uid: STSIM.GameManeger.debugPrefab
   name: debugPrefab
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_debugPrefab
@@ -1542,6 +1728,32 @@ references:
   isSpec: "True"
   fullName: STSIM.GameManeger.getDestnaiton
   nameWithType: GameManeger.getDestnaiton
+- uid: STSIM.GameManeger.getMAXPlayerHelth
+  name: getMAXPlayerHelth()
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_getMAXPlayerHelth
+  commentId: M:STSIM.GameManeger.getMAXPlayerHelth
+  fullName: STSIM.GameManeger.getMAXPlayerHelth()
+  nameWithType: GameManeger.getMAXPlayerHelth()
+- uid: STSIM.GameManeger.getMAXPlayerHelth*
+  name: getMAXPlayerHelth
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_getMAXPlayerHelth_
+  commentId: Overload:STSIM.GameManeger.getMAXPlayerHelth
+  isSpec: "True"
+  fullName: STSIM.GameManeger.getMAXPlayerHelth
+  nameWithType: GameManeger.getMAXPlayerHelth
+- uid: STSIM.GameManeger.getPlayerHelth
+  name: getPlayerHelth()
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_getPlayerHelth
+  commentId: M:STSIM.GameManeger.getPlayerHelth
+  fullName: STSIM.GameManeger.getPlayerHelth()
+  nameWithType: GameManeger.getPlayerHelth()
+- uid: STSIM.GameManeger.getPlayerHelth*
+  name: getPlayerHelth
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_getPlayerHelth_
+  commentId: Overload:STSIM.GameManeger.getPlayerHelth
+  isSpec: "True"
+  fullName: STSIM.GameManeger.getPlayerHelth
+  nameWithType: GameManeger.getPlayerHelth
 - uid: STSIM.GameManeger.groundSystemControll
   name: groundSystemControll
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_groundSystemControll
@@ -1567,6 +1779,12 @@ references:
   commentId: F:STSIM.GameManeger.groundSystemPrefab
   fullName: STSIM.GameManeger.groundSystemPrefab
   nameWithType: GameManeger.groundSystemPrefab
+- uid: STSIM.GameManeger.helthCal
+  name: helthCal
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_helthCal
+  commentId: F:STSIM.GameManeger.helthCal
+  fullName: STSIM.GameManeger.helthCal
+  nameWithType: GameManeger.helthCal
 - uid: STSIM.GameManeger.highWayPrefab
   name: highWayPrefab
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_highWayPrefab
@@ -1597,12 +1815,6 @@ references:
   commentId: F:STSIM.GameManeger.MaximamCarSpawn
   fullName: STSIM.GameManeger.MaximamCarSpawn
   nameWithType: GameManeger.MaximamCarSpawn
-- uid: STSIM.GameManeger.MAXPlayerHelth
-  name: MAXPlayerHelth
-  href: api/STSIM.GameManeger.html#STSIM_GameManeger_MAXPlayerHelth
-  commentId: F:STSIM.GameManeger.MAXPlayerHelth
-  fullName: STSIM.GameManeger.MAXPlayerHelth
-  nameWithType: GameManeger.MAXPlayerHelth
 - uid: STSIM.GameManeger.MaxWidth
   name: MaxWidth
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_MaxWidth
@@ -1641,6 +1853,18 @@ references:
   commentId: F:STSIM.GameManeger.nodePrefab
   fullName: STSIM.GameManeger.nodePrefab
   nameWithType: GameManeger.nodePrefab
+- uid: STSIM.GameManeger.pausebleList
+  name: pausebleList
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_pausebleList
+  commentId: F:STSIM.GameManeger.pausebleList
+  fullName: STSIM.GameManeger.pausebleList
+  nameWithType: GameManeger.pausebleList
+- uid: STSIM.GameManeger.playerHelth
+  name: playerHelth
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_playerHelth
+  commentId: F:STSIM.GameManeger.playerHelth
+  fullName: STSIM.GameManeger.playerHelth
+  nameWithType: GameManeger.playerHelth
 - uid: STSIM.GameManeger.requestUpdateCarNumber(System.Boolean)
   name: requestUpdateCarNumber(Boolean)
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_requestUpdateCarNumber_System_Boolean_
@@ -1779,21 +2003,46 @@ references:
   isSpec: "True"
   fullName: STSIM.GroundSystemControll.SetPhase
   nameWithType: GroundSystemControll.SetPhase
+- uid: STSIM.HelthCal
+  name: HelthCal
+  href: api/STSIM.HelthCal.html
+  commentId: T:STSIM.HelthCal
+  fullName: STSIM.HelthCal
+  nameWithType: HelthCal
+- uid: STSIM.HelthCal.checkCahFlow(System.Int32)
+  name: checkCahFlow(Int32)
+  href: api/STSIM.HelthCal.html#STSIM_HelthCal_checkCahFlow_System_Int32_
+  commentId: M:STSIM.HelthCal.checkCahFlow(System.Int32)
+  fullName: STSIM.HelthCal.checkCahFlow(System.Int32)
+  nameWithType: HelthCal.checkCahFlow(Int32)
+- uid: STSIM.HelthCal.checkCahFlow*
+  name: checkCahFlow
+  href: api/STSIM.HelthCal.html#STSIM_HelthCal_checkCahFlow_
+  commentId: Overload:STSIM.HelthCal.checkCahFlow
+  isSpec: "True"
+  fullName: STSIM.HelthCal.checkCahFlow
+  nameWithType: HelthCal.checkCahFlow
+- uid: STSIM.HelthCal.gameManeger
+  name: gameManeger
+  href: api/STSIM.HelthCal.html#STSIM_HelthCal_gameManeger
+  commentId: F:STSIM.HelthCal.gameManeger
+  fullName: STSIM.HelthCal.gameManeger
+  nameWithType: HelthCal.gameManeger
 - uid: STSIM.InterMesh
   name: InterMesh
   href: api/STSIM.InterMesh.html
   commentId: T:STSIM.InterMesh
   fullName: STSIM.InterMesh
   nameWithType: InterMesh
-- uid: STSIM.InterMesh.addRenderLine(UnityEngine.Vector2[])
-  name: addRenderLine(Vector2[])
-  href: api/STSIM.InterMesh.html#STSIM_InterMesh_addRenderLine_UnityEngine_Vector2___
-  commentId: M:STSIM.InterMesh.addRenderLine(UnityEngine.Vector2[])
-  name.vb: addRenderLine(Vector2())
-  fullName: STSIM.InterMesh.addRenderLine(UnityEngine.Vector2[])
-  fullName.vb: STSIM.InterMesh.addRenderLine(UnityEngine.Vector2())
-  nameWithType: InterMesh.addRenderLine(Vector2[])
-  nameWithType.vb: InterMesh.addRenderLine(Vector2())
+- uid: STSIM.InterMesh.addRenderLine(UnityEngine.Vector2[],System.Single)
+  name: addRenderLine(Vector2[], Single)
+  href: api/STSIM.InterMesh.html#STSIM_InterMesh_addRenderLine_UnityEngine_Vector2___System_Single_
+  commentId: M:STSIM.InterMesh.addRenderLine(UnityEngine.Vector2[],System.Single)
+  name.vb: addRenderLine(Vector2(), Single)
+  fullName: STSIM.InterMesh.addRenderLine(UnityEngine.Vector2[], System.Single)
+  fullName.vb: STSIM.InterMesh.addRenderLine(UnityEngine.Vector2(), System.Single)
+  nameWithType: InterMesh.addRenderLine(Vector2[], Single)
+  nameWithType.vb: InterMesh.addRenderLine(Vector2(), Single)
 - uid: STSIM.InterMesh.addRenderLine*
   name: addRenderLine
   href: api/STSIM.InterMesh.html#STSIM_InterMesh_addRenderLine_
@@ -1820,6 +2069,19 @@ references:
   isSpec: "True"
   fullName: STSIM.InterMesh.clearRenderLine
   nameWithType: InterMesh.clearRenderLine
+- uid: STSIM.InterMesh.createCenterLine(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+  name: createCenterLine(Vector2, Vector2, Vector2, Single)
+  href: api/STSIM.InterMesh.html#STSIM_InterMesh_createCenterLine_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_System_Single_
+  commentId: M:STSIM.InterMesh.createCenterLine(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,System.Single)
+  fullName: STSIM.InterMesh.createCenterLine(UnityEngine.Vector2, UnityEngine.Vector2, UnityEngine.Vector2, System.Single)
+  nameWithType: InterMesh.createCenterLine(Vector2, Vector2, Vector2, Single)
+- uid: STSIM.InterMesh.createCenterLine*
+  name: createCenterLine
+  href: api/STSIM.InterMesh.html#STSIM_InterMesh_createCenterLine_
+  commentId: Overload:STSIM.InterMesh.createCenterLine
+  isSpec: "True"
+  fullName: STSIM.InterMesh.createCenterLine
+  nameWithType: InterMesh.createCenterLine
 - uid: STSIM.InterMesh.lineList
   name: lineList
   href: api/STSIM.InterMesh.html#STSIM_InterMesh_lineList
@@ -2289,6 +2551,37 @@ references:
   commentId: F:STSIM.PausableSystem.pausing
   fullName: STSIM.PausableSystem.pausing
   nameWithType: PausableSystem.pausing
+- uid: STSIM.PauseMenuSystem
+  name: PauseMenuSystem
+  href: api/STSIM.PauseMenuSystem.html
+  commentId: T:STSIM.PauseMenuSystem
+  fullName: STSIM.PauseMenuSystem
+  nameWithType: PauseMenuSystem
+- uid: STSIM.PauseMenuSystem.OnClick
+  name: OnClick()
+  href: api/STSIM.PauseMenuSystem.html#STSIM_PauseMenuSystem_OnClick
+  commentId: M:STSIM.PauseMenuSystem.OnClick
+  fullName: STSIM.PauseMenuSystem.OnClick()
+  nameWithType: PauseMenuSystem.OnClick()
+- uid: STSIM.PauseMenuSystem.OnClick*
+  name: OnClick
+  href: api/STSIM.PauseMenuSystem.html#STSIM_PauseMenuSystem_OnClick_
+  commentId: Overload:STSIM.PauseMenuSystem.OnClick
+  isSpec: "True"
+  fullName: STSIM.PauseMenuSystem.OnClick
+  nameWithType: PauseMenuSystem.OnClick
+- uid: STSIM.PauseMenuSystem.pausableList
+  name: pausableList
+  href: api/STSIM.PauseMenuSystem.html#STSIM_PauseMenuSystem_pausableList
+  commentId: F:STSIM.PauseMenuSystem.pausableList
+  fullName: STSIM.PauseMenuSystem.pausableList
+  nameWithType: PauseMenuSystem.pausableList
+- uid: STSIM.PauseMenuSystem.pausePanel
+  name: pausePanel
+  href: api/STSIM.PauseMenuSystem.html#STSIM_PauseMenuSystem_pausePanel
+  commentId: F:STSIM.PauseMenuSystem.pausePanel
+  fullName: STSIM.PauseMenuSystem.pausePanel
+  nameWithType: PauseMenuSystem.pausePanel
 - uid: STSIM.Rigidbody2DVelocity
   name: Rigidbody2DVelocity
   href: api/STSIM.Rigidbody2DVelocity.html
@@ -2727,15 +3020,15 @@ references:
   commentId: T:STSIM.RoadLineRender
   fullName: STSIM.RoadLineRender
   nameWithType: RoadLineRender
-- uid: STSIM.RoadLineRender.renderLine(UnityEngine.Vector2[])
-  name: renderLine(Vector2[])
-  href: api/STSIM.RoadLineRender.html#STSIM_RoadLineRender_renderLine_UnityEngine_Vector2___
-  commentId: M:STSIM.RoadLineRender.renderLine(UnityEngine.Vector2[])
-  name.vb: renderLine(Vector2())
-  fullName: STSIM.RoadLineRender.renderLine(UnityEngine.Vector2[])
-  fullName.vb: STSIM.RoadLineRender.renderLine(UnityEngine.Vector2())
-  nameWithType: RoadLineRender.renderLine(Vector2[])
-  nameWithType.vb: RoadLineRender.renderLine(Vector2())
+- uid: STSIM.RoadLineRender.renderLine(UnityEngine.Vector2[],System.Single)
+  name: renderLine(Vector2[], Single)
+  href: api/STSIM.RoadLineRender.html#STSIM_RoadLineRender_renderLine_UnityEngine_Vector2___System_Single_
+  commentId: M:STSIM.RoadLineRender.renderLine(UnityEngine.Vector2[],System.Single)
+  name.vb: renderLine(Vector2(), Single)
+  fullName: STSIM.RoadLineRender.renderLine(UnityEngine.Vector2[], System.Single)
+  fullName.vb: STSIM.RoadLineRender.renderLine(UnityEngine.Vector2(), System.Single)
+  nameWithType: RoadLineRender.renderLine(Vector2[], Single)
+  nameWithType.vb: RoadLineRender.renderLine(Vector2(), Single)
 - uid: STSIM.RoadLineRender.renderLine*
   name: renderLine
   href: api/STSIM.RoadLineRender.html#STSIM_RoadLineRender_renderLine_

@@ -382,6 +382,30 @@
   </h3>
   
   
+  <h4 id="STSIM_GameGUI_dayText" data-uid="STSIM.GameGUI.dayText">dayText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI dayText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TMPro.TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="STSIM_GameGUI_editModeMoveToggle" data-uid="STSIM.GameGUI.editModeMoveToggle">editModeMoveToggle</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -424,6 +448,30 @@
     <tbody>
       <tr>
         <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="STSIM_GameGUI_hand" data-uid="STSIM.GameGUI.hand">hand</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform hand</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -559,7 +607,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void createHelthIcon(int MAXhelth)</code></pre>
+    <pre><code class="lang-csharp hljs">public void createHelthIcon(int helth)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -573,8 +621,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">MAXhelth</span></td>
-        <td><p>最大HP</p>
+        <td><span class="parametername">helth</span></td>
+        <td><p>初期生成するHP</p>
 </td>
       </tr>
     </tbody>
@@ -818,6 +866,70 @@
         <td><span class="xref">UnityEngine.Vector3</span></td>
         <td><span class="parametername">cityPosition</span></td>
         <td><p>街のGameObject座標</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_GameGUI_setDayText_" data-uid="STSIM.GameGUI.setDayText*"></a>
+  <h4 id="STSIM_GameGUI_setDayText_System_Int32_" data-uid="STSIM.GameGUI.setDayText(System.Int32)">setDayText(Int32)</h4>
+  <div class="markdown level1 summary"><p>日付の表示を行う</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setDayText(int day)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">day</span></td>
+        <td><p>日付</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="STSIM_GameGUI_setWath_" data-uid="STSIM.GameGUI.setWath*"></a>
+  <h4 id="STSIM_GameGUI_setWath_System_Single_System_Single_" data-uid="STSIM.GameGUI.setWath(System.Single,System.Single)">setWath(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>時計の表示を行う。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void setWath(float hour, float MaxHour)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">hour</span></td>
+        <td><p>現在時刻</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">MaxHour</span></td>
+        <td><p>最大時刻</p>
 </td>
       </tr>
     </tbody>

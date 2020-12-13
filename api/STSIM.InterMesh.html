@@ -459,13 +459,13 @@ public class InterMesh : MonoBehaviour</code></pre>
   
   
   <a id="STSIM_InterMesh_addRenderLine_" data-uid="STSIM.InterMesh.addRenderLine*"></a>
-  <h4 id="STSIM_InterMesh_addRenderLine_UnityEngine_Vector2___" data-uid="STSIM.InterMesh.addRenderLine(UnityEngine.Vector2[])">addRenderLine(Vector2[])</h4>
+  <h4 id="STSIM_InterMesh_addRenderLine_UnityEngine_Vector2___System_Single_" data-uid="STSIM.InterMesh.addRenderLine(UnityEngine.Vector2[],System.Single)">addRenderLine(Vector2[], Single)</h4>
   <div class="markdown level1 summary"><p>ラインの追加</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void addRenderLine(Vector2[] vertex)</code></pre>
+    <pre><code class="lang-csharp hljs">public void addRenderLine(Vector2[] vertex, float lineSize)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -482,6 +482,11 @@ public class InterMesh : MonoBehaviour</code></pre>
         <td><span class="parametername">vertex</span></td>
         <td></td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">lineSize</span></td>
+        <td></td>
+      </tr>
     </tbody>
   </table>
   
@@ -494,6 +499,48 @@ public class InterMesh : MonoBehaviour</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void clearRenderLine()</code></pre>
   </div>
+  
+  
+  <a id="STSIM_InterMesh_createCenterLine_" data-uid="STSIM.InterMesh.createCenterLine*"></a>
+  <h4 id="STSIM_InterMesh_createCenterLine_UnityEngine_Vector2_UnityEngine_Vector2_UnityEngine_Vector2_System_Single_" data-uid="STSIM.InterMesh.createCenterLine(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,System.Single)">createCenterLine(Vector2, Vector2, Vector2, Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void createCenterLine(Vector2 start, Vector2 controll, Vector2 end, float size)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">controll</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">end</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">size</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="STSIM_InterMesh_renderMesh_" data-uid="STSIM.InterMesh.renderMesh*"></a>
