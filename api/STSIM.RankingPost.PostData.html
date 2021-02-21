@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TrafficLightController.SectionInfo
+    <title>Class RankingPost.PostData
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TrafficLightController.SectionInfo
+    <meta name="title" content="Class RankingPost.PostData
    ">
     <meta name="generator" content="docfx 2.56.5.0">
     
@@ -68,18 +68,18 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="STSIM.TrafficLightController.SectionInfo">
+            <article class="content wrap" id="_content" data-uid="STSIM.RankingPost.PostData">
   
   
-  <h1 id="STSIM_TrafficLightController_SectionInfo" data-uid="STSIM.TrafficLightController.SectionInfo" class="text-break">Class TrafficLightController.SectionInfo
+  <h1 id="STSIM_RankingPost_PostData" data-uid="STSIM.RankingPost.PostData" class="text-break">Class RankingPost.PostData
   </h1>
-  <div class="markdown level0 summary"><p>セクション情報を保持するクラス</p>
+  <div class="markdown level0 summary"><p>ポストするデータ</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">TrafficLightController.SectionInfo</span></div>
+    <div class="level1"><span class="xref">RankingPost.PostData</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -107,20 +107,20 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="STSIM.html">STSIM</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="STSIM_TrafficLightController_SectionInfo_syntax">Syntax</h5>
+  <h5 id="STSIM_RankingPost_PostData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SectionInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public class PostData</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="STSIM_TrafficLightController_SectionInfo_lightList" data-uid="STSIM.TrafficLightController.SectionInfo.lightList">lightList</h4>
+  <h4 id="STSIM_RankingPost_PostData_name" data-uid="STSIM.RankingPost.PostData.name">name</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;GameObject&gt; lightList</code></pre>
+    <pre><code class="lang-csharp hljs">public string name</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -132,19 +132,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">UnityEngine.GameObject</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="STSIM_TrafficLightController_SectionInfo_switchingInterval" data-uid="STSIM.TrafficLightController.SectionInfo.switchingInterval">switchingInterval</h4>
+  <h4 id="STSIM_RankingPost_PostData_rank_name" data-uid="STSIM.RankingPost.PostData.rank_name">rank_name</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float switchingInterval</code></pre>
+    <pre><code class="lang-csharp hljs">public string rank_name</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,7 +156,55 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="STSIM_RankingPost_PostData_score" data-uid="STSIM.RankingPost.PostData.score">score</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string score</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="STSIM_RankingPost_PostData_userID" data-uid="STSIM.RankingPost.PostData.userID">userID</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string userID</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>

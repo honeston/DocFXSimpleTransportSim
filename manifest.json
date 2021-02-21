@@ -149,11 +149,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.DayController.CallFunkDel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.DayController.CallFunkDel.html",
+          "hash": "mvJXyCi83p69AFlKmAXwFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/STSIM.DayController.yml",
       "output": {
         ".html": {
           "relative_path": "api/STSIM.DayController.html",
-          "hash": "p2JfoOb90Sqts33yCRiIrQ=="
+          "hash": "EK7oY3Ik86iOCE+c45qV9A=="
         }
       },
       "is_incremental": false,
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/STSIM.GameGUI.html",
-          "hash": "xOfH66/t3Ahnic8nlHdQMw=="
+          "hash": "4uQjsHFcVJHiULOchmlHSA=="
         }
       },
       "is_incremental": false,
@@ -213,7 +225,19 @@
       "output": {
         ".html": {
           "relative_path": "api/STSIM.GameManeger.html",
-          "hash": "Zsqo3I/uW+B+yzolP1NjAQ=="
+          "hash": "TFSDFSFsfjTNXJEkcOI7Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.GameOverControl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.GameOverControl.html",
+          "hash": "xPSxm6GRoWapMq5PiWqXNQ=="
         }
       },
       "is_incremental": false,
@@ -285,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/STSIM.IntersectionInfo.html",
-          "hash": "Fs0I/r2blBO5BY3GiVGp0g=="
+          "hash": "otRd8/8P4E7RAHYQeldgsQ=="
         }
       },
       "is_incremental": false,
@@ -345,7 +369,55 @@
       "output": {
         ".html": {
           "relative_path": "api/STSIM.PauseMenuSystem.html",
-          "hash": "AegfDdy0bHiE1TnMzSysgw=="
+          "hash": "Rf0S/sUDE6EqM3GVUFTrPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RankingPost.PostData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RankingPost.PostData.html",
+          "hash": "bIUyMTElc2P7YWsUpgMy9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RankingPost.RankData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RankingPost.RankData.html",
+          "hash": "iCQ6EdiqJXlWywUrLriBnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RankingPost.ResponsData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RankingPost.ResponsData.html",
+          "hash": "ZrCcyj7tBPRLA7cgmwAaAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/STSIM.RankingPost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/STSIM.RankingPost.html",
+          "hash": "O/7JwwsE1K8wFDFKDiPU6g=="
         }
       },
       "is_incremental": false,
@@ -561,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/STSIM.TitleGuiController.html",
-          "hash": "QkXDrxdDtqaK3xktwOgKAA=="
+          "hash": "QDeCUOLJCzdBZzeGhlX7dw=="
         }
       },
       "is_incremental": false,
@@ -585,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "api/STSIM.TrafficLightController.SectionInfo.html",
-          "hash": "jL86JeuN8pl+jP/B+RBSgw=="
+          "hash": "rkpixmreLKWgd9te6dJUTQ=="
         }
       },
       "is_incremental": false,
@@ -597,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "api/STSIM.TrafficLightController.html",
-          "hash": "uhNlXV+vgYMo7hxjKspp6Q=="
+          "hash": "+PUCquxrbXZUQQFeuPWgQw=="
         }
       },
       "is_incremental": false,
@@ -621,7 +693,7 @@
       "output": {
         ".html": {
           "relative_path": "api/STSIM.html",
-          "hash": "+B5sqrjWz0KoxwAe3YXXJw=="
+          "hash": "SFVJ8ZIG22cgD+qDeMFrhg=="
         }
       },
       "is_incremental": false,
@@ -1173,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "6wyKJQKEnMquudVKIHhcAA=="
+          "hash": "/2cUm0GEx+ydgHdhIZLZgg=="
         }
       },
       "is_incremental": false,
@@ -1246,8 +1318,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 96,
-          "skipped_file_count": 21
+          "total_file_count": 102,
+          "skipped_file_count": 84
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

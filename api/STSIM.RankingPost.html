@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DayController
+    <title>Class RankingPost
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DayController
+    <meta name="title" content="Class RankingPost
    ">
     <meta name="generator" content="docfx 2.56.5.0">
     
@@ -68,13 +68,12 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="STSIM.DayController">
+            <article class="content wrap" id="_content" data-uid="STSIM.RankingPost">
   
   
-  <h1 id="STSIM_DayController" data-uid="STSIM.DayController" class="text-break">Class DayController
+  <h1 id="STSIM_RankingPost" data-uid="STSIM.RankingPost" class="text-break">Class RankingPost
   </h1>
-  <div class="markdown level0 summary"><p>経過時間、日付管理を行う。</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -83,7 +82,7 @@
     <div class="level2"><span class="xref">UnityEngine.Component</span></div>
     <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
     <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
-    <div class="level5"><span class="xref">DayController</span></div>
+    <div class="level5"><span class="xref">RankingPost</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -375,20 +374,20 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="STSIM.html">STSIM</a></h6>
   <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
-  <h5 id="STSIM_DayController_syntax">Syntax</h5>
+  <h5 id="STSIM_RankingPost_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DayController : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class RankingPost : MonoBehaviour</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="STSIM_DayController_gameGUI" data-uid="STSIM.DayController.gameGUI">gameGUI</h4>
+  <h4 id="STSIM_RankingPost_rankingText" data-uid="STSIM.RankingPost.rankingText">rankingText</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameGUI gameGUI</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI rankingText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -400,113 +399,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="STSIM.GameGUI.html">GameGUI</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="STSIM_DayController_timeCountSecond_" data-uid="STSIM.DayController.timeCountSecond*"></a>
-  <h4 id="STSIM_DayController_timeCountSecond" data-uid="STSIM.DayController.timeCountSecond">timeCountSecond</h4>
-  <div class="markdown level1 summary"><p>時間のカウント値(秒)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int timeCountSecond { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="STSIM_DayController_timeScaleDay_" data-uid="STSIM.DayController.timeScaleDay*"></a>
-  <h4 id="STSIM_DayController_timeScaleDay" data-uid="STSIM.DayController.timeScaleDay">timeScaleDay</h4>
-  <div class="markdown level1 summary"><p>タイムスケール_1日の間隔/時間</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int timeScaleDay { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="STSIM_DayController_timeScaleHour_" data-uid="STSIM.DayController.timeScaleHour*"></a>
-  <h4 id="STSIM_DayController_timeScaleHour" data-uid="STSIM.DayController.timeScaleHour">timeScaleHour</h4>
-  <div class="markdown level1 summary"><p>タイムスケール_1時間の間隔/秒</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int timeScaleHour { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="STSIM_DayController_updateTime_" data-uid="STSIM.DayController.updateTime*"></a>
-  <h4 id="STSIM_DayController_updateTime" data-uid="STSIM.DayController.updateTime">updateTime</h4>
-  <div class="markdown level1 summary"><p>表示の更新間隔</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int updateTime { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">TMPro.TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -515,14 +408,14 @@
   </h3>
   
   
-  <a id="STSIM_DayController_addCallFunkDay_" data-uid="STSIM.DayController.addCallFunkDay*"></a>
-  <h4 id="STSIM_DayController_addCallFunkDay_STSIM_DayController_CallFunkDel_System_Int32_System_Int32_" data-uid="STSIM.DayController.addCallFunkDay(STSIM.DayController.CallFunkDel,System.Int32,System.Int32)">addCallFunkDay(DayController.CallFunkDel, Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>指定時間ごとの関数関数呼び出しに追加(日)</p>
+  <a id="STSIM_RankingPost_responseBack_" data-uid="STSIM.RankingPost.responseBack*"></a>
+  <h4 id="STSIM_RankingPost_responseBack_STSIM_RankingPost_ResponsData_" data-uid="STSIM.RankingPost.responseBack(STSIM.RankingPost.ResponsData)">responseBack(RankingPost.ResponsData)</h4>
+  <div class="markdown level1 summary"><p>取得結果の呼び出し先</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void addCallFunkDay(DayController.CallFunkDel callFunk, int rangeDay, int firstTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public void responseBack(RankingPost.ResponsData responcedata)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -535,34 +428,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="STSIM.DayController.CallFunkDel.html">DayController.CallFunkDel</a></td>
-        <td><span class="parametername">callFunk</span></td>
-        <td><p>呼び出す関数</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">rangeDay</span></td>
+        <td><a class="xref" href="STSIM.RankingPost.ResponsData.html">RankingPost.ResponsData</a></td>
+        <td><span class="parametername">responcedata</span></td>
         <td></td>
       </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">firstTime</span></td>
-        <td><p>最初の呼び出し時間秒（-1なら指定なし）</p>
-</td>
-      </tr>
     </tbody>
   </table>
   
   
-  <a id="STSIM_DayController_addCallFunkSecond_" data-uid="STSIM.DayController.addCallFunkSecond*"></a>
-  <h4 id="STSIM_DayController_addCallFunkSecond_STSIM_DayController_CallFunkDel_System_Int32_System_Int32_" data-uid="STSIM.DayController.addCallFunkSecond(STSIM.DayController.CallFunkDel,System.Int32,System.Int32)">addCallFunkSecond(DayController.CallFunkDel, Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>指定時間ごとの関数関数呼び出しに追加(秒)</p>
-</div>
+  <a id="STSIM_RankingPost_sendPost_" data-uid="STSIM.RankingPost.sendPost*"></a>
+  <h4 id="STSIM_RankingPost_sendPost_STSIM_RankingPost_PostData_" data-uid="STSIM.RankingPost.sendPost(STSIM.RankingPost.PostData)">sendPost(RankingPost.PostData)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void addCallFunkSecond(DayController.CallFunkDel callFunk, int rangeSecond, int firstTime)</code></pre>
+    <pre><code class="lang-csharp hljs">public void sendPost(RankingPost.PostData postData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -575,147 +455,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="STSIM.DayController.CallFunkDel.html">DayController.CallFunkDel</a></td>
-        <td><span class="parametername">callFunk</span></td>
-        <td><p>呼び出す関数</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">rangeSecond</span></td>
-        <td><p>呼び出し間隔秒</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">firstTime</span></td>
-        <td><p>最初の呼び出し時間秒（-1なら指定なし）</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="STSIM_DayController_countEnd_" data-uid="STSIM.DayController.countEnd*"></a>
-  <h4 id="STSIM_DayController_countEnd" data-uid="STSIM.DayController.countEnd">countEnd()</h4>
-  <div class="markdown level1 summary"><p>日付のカウントを終了する。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void countEnd()</code></pre>
-  </div>
-  
-  
-  <a id="STSIM_DayController_countReset_" data-uid="STSIM.DayController.countReset*"></a>
-  <h4 id="STSIM_DayController_countReset" data-uid="STSIM.DayController.countReset">countReset()</h4>
-  <div class="markdown level1 summary"><p>日付のカウントをリセットする。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void countReset()</code></pre>
-  </div>
-  
-  
-  <a id="STSIM_DayController_countStart_" data-uid="STSIM.DayController.countStart*"></a>
-  <h4 id="STSIM_DayController_countStart" data-uid="STSIM.DayController.countStart">countStart()</h4>
-  <div class="markdown level1 summary"><p>日付のカウントを開始する。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void countStart()</code></pre>
-  </div>
-  
-  
-  <a id="STSIM_DayController_countStop_" data-uid="STSIM.DayController.countStop*"></a>
-  <h4 id="STSIM_DayController_countStop" data-uid="STSIM.DayController.countStop">countStop()</h4>
-  <div class="markdown level1 summary"><p>日付のカウントを停止する。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void countStop()</code></pre>
-  </div>
-  
-  
-  <a id="STSIM_DayController_getDay_" data-uid="STSIM.DayController.getDay*"></a>
-  <h4 id="STSIM_DayController_getDay" data-uid="STSIM.DayController.getDay">getDay()</h4>
-  <div class="markdown level1 summary"><p>日付変換済みの日を返す。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int getDay()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>日</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="STSIM_DayController_getHour_" data-uid="STSIM.DayController.getHour*"></a>
-  <h4 id="STSIM_DayController_getHour" data-uid="STSIM.DayController.getHour">getHour()</h4>
-  <div class="markdown level1 summary"><p>日付変換済みの時間を返す。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int getHour()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>時間</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="STSIM_DayController_getSecond_" data-uid="STSIM.DayController.getSecond*"></a>
-  <h4 id="STSIM_DayController_getSecond" data-uid="STSIM.DayController.getSecond">getSecond()</h4>
-  <div class="markdown level1 summary"><p>日付変換済みの秒数を返す。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int getSecond()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>秒数</p>
-</td>
+        <td><a class="xref" href="STSIM.RankingPost.PostData.html">RankingPost.PostData</a></td>
+        <td><span class="parametername">postData</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

@@ -1083,6 +1083,38 @@ references:
   commentId: T:STSIM.DayController
   fullName: STSIM.DayController
   nameWithType: DayController
+- uid: STSIM.DayController.addCallFunkDay(STSIM.DayController.CallFunkDel,System.Int32,System.Int32)
+  name: addCallFunkDay(DayController.CallFunkDel, Int32, Int32)
+  href: api/STSIM.DayController.html#STSIM_DayController_addCallFunkDay_STSIM_DayController_CallFunkDel_System_Int32_System_Int32_
+  commentId: M:STSIM.DayController.addCallFunkDay(STSIM.DayController.CallFunkDel,System.Int32,System.Int32)
+  fullName: STSIM.DayController.addCallFunkDay(STSIM.DayController.CallFunkDel, System.Int32, System.Int32)
+  nameWithType: DayController.addCallFunkDay(DayController.CallFunkDel, Int32, Int32)
+- uid: STSIM.DayController.addCallFunkDay*
+  name: addCallFunkDay
+  href: api/STSIM.DayController.html#STSIM_DayController_addCallFunkDay_
+  commentId: Overload:STSIM.DayController.addCallFunkDay
+  isSpec: "True"
+  fullName: STSIM.DayController.addCallFunkDay
+  nameWithType: DayController.addCallFunkDay
+- uid: STSIM.DayController.addCallFunkSecond(STSIM.DayController.CallFunkDel,System.Int32,System.Int32)
+  name: addCallFunkSecond(DayController.CallFunkDel, Int32, Int32)
+  href: api/STSIM.DayController.html#STSIM_DayController_addCallFunkSecond_STSIM_DayController_CallFunkDel_System_Int32_System_Int32_
+  commentId: M:STSIM.DayController.addCallFunkSecond(STSIM.DayController.CallFunkDel,System.Int32,System.Int32)
+  fullName: STSIM.DayController.addCallFunkSecond(STSIM.DayController.CallFunkDel, System.Int32, System.Int32)
+  nameWithType: DayController.addCallFunkSecond(DayController.CallFunkDel, Int32, Int32)
+- uid: STSIM.DayController.addCallFunkSecond*
+  name: addCallFunkSecond
+  href: api/STSIM.DayController.html#STSIM_DayController_addCallFunkSecond_
+  commentId: Overload:STSIM.DayController.addCallFunkSecond
+  isSpec: "True"
+  fullName: STSIM.DayController.addCallFunkSecond
+  nameWithType: DayController.addCallFunkSecond
+- uid: STSIM.DayController.CallFunkDel
+  name: DayController.CallFunkDel
+  href: api/STSIM.DayController.CallFunkDel.html
+  commentId: T:STSIM.DayController.CallFunkDel
+  fullName: STSIM.DayController.CallFunkDel
+  nameWithType: DayController.CallFunkDel
 - uid: STSIM.DayController.countEnd
   name: countEnd()
   href: api/STSIM.DayController.html#STSIM_DayController_countEnd
@@ -1219,6 +1251,19 @@ references:
   isSpec: "True"
   fullName: STSIM.DayController.timeScaleHour
   nameWithType: DayController.timeScaleHour
+- uid: STSIM.DayController.updateTime
+  name: updateTime
+  href: api/STSIM.DayController.html#STSIM_DayController_updateTime
+  commentId: P:STSIM.DayController.updateTime
+  fullName: STSIM.DayController.updateTime
+  nameWithType: DayController.updateTime
+- uid: STSIM.DayController.updateTime*
+  name: updateTime
+  href: api/STSIM.DayController.html#STSIM_DayController_updateTime_
+  commentId: Overload:STSIM.DayController.updateTime
+  isSpec: "True"
+  fullName: STSIM.DayController.updateTime
+  nameWithType: DayController.updateTime
 - uid: STSIM.DictionalStrage
   name: DictionalStrage
   href: api/STSIM.DictionalStrage.html
@@ -1317,6 +1362,12 @@ references:
   commentId: F:STSIM.GameGUI.editModeMoveToggle
   fullName: STSIM.GameGUI.editModeMoveToggle
   nameWithType: GameGUI.editModeMoveToggle
+- uid: STSIM.GameGUI.gameClearObjectPrefab
+  name: gameClearObjectPrefab
+  href: api/STSIM.GameGUI.html#STSIM_GameGUI_gameClearObjectPrefab
+  commentId: F:STSIM.GameGUI.gameClearObjectPrefab
+  fullName: STSIM.GameGUI.gameClearObjectPrefab
+  nameWithType: GameGUI.gameClearObjectPrefab
 - uid: STSIM.GameGUI.glassObjectPrefab
   name: glassObjectPrefab
   href: api/STSIM.GameGUI.html#STSIM_GameGUI_glassObjectPrefab
@@ -1419,6 +1470,19 @@ references:
   commentId: F:STSIM.GameGUI.playerHelthPrefab
   fullName: STSIM.GameGUI.playerHelthPrefab
   nameWithType: GameGUI.playerHelthPrefab
+- uid: STSIM.GameGUI.popupGameClaerGUI
+  name: popupGameClaerGUI()
+  href: api/STSIM.GameGUI.html#STSIM_GameGUI_popupGameClaerGUI
+  commentId: M:STSIM.GameGUI.popupGameClaerGUI
+  fullName: STSIM.GameGUI.popupGameClaerGUI()
+  nameWithType: GameGUI.popupGameClaerGUI()
+- uid: STSIM.GameGUI.popupGameClaerGUI*
+  name: popupGameClaerGUI
+  href: api/STSIM.GameGUI.html#STSIM_GameGUI_popupGameClaerGUI_
+  commentId: Overload:STSIM.GameGUI.popupGameClaerGUI
+  isSpec: "True"
+  fullName: STSIM.GameGUI.popupGameClaerGUI
+  nameWithType: GameGUI.popupGameClaerGUI
 - uid: STSIM.GameGUI.popupGameOverGUI
   name: popupGameOverGUI()
   href: api/STSIM.GameGUI.html#STSIM_GameGUI_popupGameOverGUI
@@ -1572,6 +1636,19 @@ references:
   isSpec: "True"
   fullName: STSIM.GameManeger.calculateCosts
   nameWithType: GameManeger.calculateCosts
+- uid: STSIM.GameManeger.callGameClear
+  name: callGameClear()
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_callGameClear
+  commentId: M:STSIM.GameManeger.callGameClear
+  fullName: STSIM.GameManeger.callGameClear()
+  nameWithType: GameManeger.callGameClear()
+- uid: STSIM.GameManeger.callGameClear*
+  name: callGameClear
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_callGameClear_
+  commentId: Overload:STSIM.GameManeger.callGameClear
+  isSpec: "True"
+  fullName: STSIM.GameManeger.callGameClear
+  nameWithType: GameManeger.callGameClear
 - uid: STSIM.GameManeger.callGameGUIReady
   name: callGameGUIReady()
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_callGameGUIReady
@@ -1629,6 +1706,19 @@ references:
   commentId: F:STSIM.GameManeger.carPrefab
   fullName: STSIM.GameManeger.carPrefab
   nameWithType: GameManeger.carPrefab
+- uid: STSIM.GameManeger.ChackClearGame
+  name: ChackClearGame()
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_ChackClearGame
+  commentId: M:STSIM.GameManeger.ChackClearGame
+  fullName: STSIM.GameManeger.ChackClearGame()
+  nameWithType: GameManeger.ChackClearGame()
+- uid: STSIM.GameManeger.ChackClearGame*
+  name: ChackClearGame
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_ChackClearGame_
+  commentId: Overload:STSIM.GameManeger.ChackClearGame
+  isSpec: "True"
+  fullName: STSIM.GameManeger.ChackClearGame
+  nameWithType: GameManeger.ChackClearGame
 - uid: STSIM.GameManeger.checkLocationPrefab
   name: checkLocationPrefab
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_checkLocationPrefab
@@ -1916,12 +2006,31 @@ references:
   isSpec: "True"
   fullName: STSIM.GameManeger.setroadInfoDic
   nameWithType: GameManeger.setroadInfoDic
+- uid: STSIM.GameManeger.stageDataBase
+  name: stageDataBase
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_stageDataBase
+  commentId: F:STSIM.GameManeger.stageDataBase
+  fullName: STSIM.GameManeger.stageDataBase
+  nameWithType: GameManeger.stageDataBase
 - uid: STSIM.GameManeger.trafficSide
   name: trafficSide
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_trafficSide
   commentId: F:STSIM.GameManeger.trafficSide
   fullName: STSIM.GameManeger.trafficSide
   nameWithType: GameManeger.trafficSide
+- uid: STSIM.GameManeger.UIUpdate
+  name: UIUpdate()
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_UIUpdate
+  commentId: M:STSIM.GameManeger.UIUpdate
+  fullName: STSIM.GameManeger.UIUpdate()
+  nameWithType: GameManeger.UIUpdate()
+- uid: STSIM.GameManeger.UIUpdate*
+  name: UIUpdate
+  href: api/STSIM.GameManeger.html#STSIM_GameManeger_UIUpdate_
+  commentId: Overload:STSIM.GameManeger.UIUpdate
+  isSpec: "True"
+  fullName: STSIM.GameManeger.UIUpdate
+  nameWithType: GameManeger.UIUpdate
 - uid: STSIM.GameManeger.updateScore(System.Single,System.Single,UnityEngine.GameObject)
   name: updateScore(Single, Single, GameObject)
   href: api/STSIM.GameManeger.html#STSIM_GameManeger_updateScore_System_Single_System_Single_UnityEngine_GameObject_
@@ -1935,6 +2044,63 @@ references:
   isSpec: "True"
   fullName: STSIM.GameManeger.updateScore
   nameWithType: GameManeger.updateScore
+- uid: STSIM.GameOverControl
+  name: GameOverControl
+  href: api/STSIM.GameOverControl.html
+  commentId: T:STSIM.GameOverControl
+  fullName: STSIM.GameOverControl
+  nameWithType: GameOverControl
+- uid: STSIM.GameOverControl.RankOnclick
+  name: RankOnclick()
+  href: api/STSIM.GameOverControl.html#STSIM_GameOverControl_RankOnclick
+  commentId: M:STSIM.GameOverControl.RankOnclick
+  fullName: STSIM.GameOverControl.RankOnclick()
+  nameWithType: GameOverControl.RankOnclick()
+- uid: STSIM.GameOverControl.RankOnclick*
+  name: RankOnclick
+  href: api/STSIM.GameOverControl.html#STSIM_GameOverControl_RankOnclick_
+  commentId: Overload:STSIM.GameOverControl.RankOnclick
+  isSpec: "True"
+  fullName: STSIM.GameOverControl.RankOnclick
+  nameWithType: GameOverControl.RankOnclick
+- uid: STSIM.GameOverControl.retryGameobj
+  name: retryGameobj
+  href: api/STSIM.GameOverControl.html#STSIM_GameOverControl_retryGameobj
+  commentId: F:STSIM.GameOverControl.retryGameobj
+  fullName: STSIM.GameOverControl.retryGameobj
+  nameWithType: GameOverControl.retryGameobj
+- uid: STSIM.GameOverControl.RetryOnclick
+  name: RetryOnclick()
+  href: api/STSIM.GameOverControl.html#STSIM_GameOverControl_RetryOnclick
+  commentId: M:STSIM.GameOverControl.RetryOnclick
+  fullName: STSIM.GameOverControl.RetryOnclick()
+  nameWithType: GameOverControl.RetryOnclick()
+- uid: STSIM.GameOverControl.RetryOnclick*
+  name: RetryOnclick
+  href: api/STSIM.GameOverControl.html#STSIM_GameOverControl_RetryOnclick_
+  commentId: Overload:STSIM.GameOverControl.RetryOnclick
+  isSpec: "True"
+  fullName: STSIM.GameOverControl.RetryOnclick
+  nameWithType: GameOverControl.RetryOnclick
+- uid: STSIM.GameOverControl.titleGameobj
+  name: titleGameobj
+  href: api/STSIM.GameOverControl.html#STSIM_GameOverControl_titleGameobj
+  commentId: F:STSIM.GameOverControl.titleGameobj
+  fullName: STSIM.GameOverControl.titleGameobj
+  nameWithType: GameOverControl.titleGameobj
+- uid: STSIM.GameOverControl.TitleOnclick
+  name: TitleOnclick()
+  href: api/STSIM.GameOverControl.html#STSIM_GameOverControl_TitleOnclick
+  commentId: M:STSIM.GameOverControl.TitleOnclick
+  fullName: STSIM.GameOverControl.TitleOnclick()
+  nameWithType: GameOverControl.TitleOnclick()
+- uid: STSIM.GameOverControl.TitleOnclick*
+  name: TitleOnclick
+  href: api/STSIM.GameOverControl.html#STSIM_GameOverControl_TitleOnclick_
+  commentId: Overload:STSIM.GameOverControl.TitleOnclick
+  isSpec: "True"
+  fullName: STSIM.GameOverControl.TitleOnclick
+  nameWithType: GameOverControl.TitleOnclick
 - uid: STSIM.GameProgressCntroll
   name: GameProgressCntroll
   href: api/STSIM.GameProgressCntroll.html
@@ -2155,19 +2321,6 @@ references:
   isSpec: "True"
   fullName: STSIM.IntersectionInfo.checkGo
   nameWithType: IntersectionInfo.checkGo
-- uid: STSIM.IntersectionInfo.containSectionCount(STSIM.TrafficLightController.SectionInfo)
-  name: containSectionCount(TrafficLightController.SectionInfo)
-  href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_containSectionCount_STSIM_TrafficLightController_SectionInfo_
-  commentId: M:STSIM.IntersectionInfo.containSectionCount(STSIM.TrafficLightController.SectionInfo)
-  fullName: STSIM.IntersectionInfo.containSectionCount(STSIM.TrafficLightController.SectionInfo)
-  nameWithType: IntersectionInfo.containSectionCount(TrafficLightController.SectionInfo)
-- uid: STSIM.IntersectionInfo.containSectionCount*
-  name: containSectionCount
-  href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_containSectionCount_
-  commentId: Overload:STSIM.IntersectionInfo.containSectionCount
-  isSpec: "True"
-  fullName: STSIM.IntersectionInfo.containSectionCount
-  nameWithType: IntersectionInfo.containSectionCount
 - uid: STSIM.IntersectionInfo.deleteNodeLinkList(STSIM.NodeLinkDate,System.Boolean)
   name: deleteNodeLinkList(NodeLinkDate, Boolean)
   href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_deleteNodeLinkList_STSIM_NodeLinkDate_System_Boolean_
@@ -2181,19 +2334,6 @@ references:
   isSpec: "True"
   fullName: STSIM.IntersectionInfo.deleteNodeLinkList
   nameWithType: IntersectionInfo.deleteNodeLinkList
-- uid: STSIM.IntersectionInfo.getContinueRoad(STSIM.RoadInfo)
-  name: getContinueRoad(RoadInfo)
-  href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_getContinueRoad_STSIM_RoadInfo_
-  commentId: M:STSIM.IntersectionInfo.getContinueRoad(STSIM.RoadInfo)
-  fullName: STSIM.IntersectionInfo.getContinueRoad(STSIM.RoadInfo)
-  nameWithType: IntersectionInfo.getContinueRoad(RoadInfo)
-- uid: STSIM.IntersectionInfo.getContinueRoad*
-  name: getContinueRoad
-  href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_getContinueRoad_
-  commentId: Overload:STSIM.IntersectionInfo.getContinueRoad
-  isSpec: "True"
-  fullName: STSIM.IntersectionInfo.getContinueRoad
-  nameWithType: IntersectionInfo.getContinueRoad
 - uid: STSIM.IntersectionInfo.getNextRoadenterCarList(STSIM.RoadInfo)
   name: getNextRoadenterCarList(RoadInfo)
   href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_getNextRoadenterCarList_STSIM_RoadInfo_
@@ -2252,19 +2392,6 @@ references:
   commentId: F:STSIM.IntersectionInfo.searchBoxLength
   fullName: STSIM.IntersectionInfo.searchBoxLength
   nameWithType: IntersectionInfo.searchBoxLength
-- uid: STSIM.IntersectionInfo.selectSectionInfo(STSIM.RoadInfo)
-  name: selectSectionInfo(RoadInfo)
-  href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_selectSectionInfo_STSIM_RoadInfo_
-  commentId: M:STSIM.IntersectionInfo.selectSectionInfo(STSIM.RoadInfo)
-  fullName: STSIM.IntersectionInfo.selectSectionInfo(STSIM.RoadInfo)
-  nameWithType: IntersectionInfo.selectSectionInfo(RoadInfo)
-- uid: STSIM.IntersectionInfo.selectSectionInfo*
-  name: selectSectionInfo
-  href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_selectSectionInfo_
-  commentId: Overload:STSIM.IntersectionInfo.selectSectionInfo
-  isSpec: "True"
-  fullName: STSIM.IntersectionInfo.selectSectionInfo
-  nameWithType: IntersectionInfo.selectSectionInfo
 - uid: STSIM.IntersectionInfo.setSeachObj(STSIM.RoadInfo)
   name: setSeachObj(RoadInfo)
   href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_setSeachObj_STSIM_RoadInfo_
@@ -2291,6 +2418,12 @@ references:
   isSpec: "True"
   fullName: STSIM.IntersectionInfo.stopLine
   nameWithType: IntersectionInfo.stopLine
+- uid: STSIM.IntersectionInfo.trafficLightController
+  name: trafficLightController
+  href: api/STSIM.IntersectionInfo.html#STSIM_IntersectionInfo_trafficLightController
+  commentId: F:STSIM.IntersectionInfo.trafficLightController
+  fullName: STSIM.IntersectionInfo.trafficLightController
+  nameWithType: IntersectionInfo.trafficLightController
 - uid: STSIM.NodeLinkDate
   name: NodeLinkDate
   href: api/STSIM.NodeLinkDate.html
@@ -2557,6 +2690,12 @@ references:
   commentId: T:STSIM.PauseMenuSystem
   fullName: STSIM.PauseMenuSystem
   nameWithType: PauseMenuSystem
+- uid: STSIM.PauseMenuSystem.dayController
+  name: dayController
+  href: api/STSIM.PauseMenuSystem.html#STSIM_PauseMenuSystem_dayController
+  commentId: F:STSIM.PauseMenuSystem.dayController
+  fullName: STSIM.PauseMenuSystem.dayController
+  nameWithType: PauseMenuSystem.dayController
 - uid: STSIM.PauseMenuSystem.OnClick
   name: OnClick()
   href: api/STSIM.PauseMenuSystem.html#STSIM_PauseMenuSystem_OnClick
@@ -2582,6 +2721,128 @@ references:
   commentId: F:STSIM.PauseMenuSystem.pausePanel
   fullName: STSIM.PauseMenuSystem.pausePanel
   nameWithType: PauseMenuSystem.pausePanel
+- uid: STSIM.RankingPost
+  name: RankingPost
+  href: api/STSIM.RankingPost.html
+  commentId: T:STSIM.RankingPost
+  fullName: STSIM.RankingPost
+  nameWithType: RankingPost
+- uid: STSIM.RankingPost.PostData
+  name: RankingPost.PostData
+  href: api/STSIM.RankingPost.PostData.html
+  commentId: T:STSIM.RankingPost.PostData
+  fullName: STSIM.RankingPost.PostData
+  nameWithType: RankingPost.PostData
+- uid: STSIM.RankingPost.PostData.name
+  name: name
+  href: api/STSIM.RankingPost.PostData.html#STSIM_RankingPost_PostData_name
+  commentId: F:STSIM.RankingPost.PostData.name
+  fullName: STSIM.RankingPost.PostData.name
+  nameWithType: RankingPost.PostData.name
+- uid: STSIM.RankingPost.PostData.rank_name
+  name: rank_name
+  href: api/STSIM.RankingPost.PostData.html#STSIM_RankingPost_PostData_rank_name
+  commentId: F:STSIM.RankingPost.PostData.rank_name
+  fullName: STSIM.RankingPost.PostData.rank_name
+  nameWithType: RankingPost.PostData.rank_name
+- uid: STSIM.RankingPost.PostData.score
+  name: score
+  href: api/STSIM.RankingPost.PostData.html#STSIM_RankingPost_PostData_score
+  commentId: F:STSIM.RankingPost.PostData.score
+  fullName: STSIM.RankingPost.PostData.score
+  nameWithType: RankingPost.PostData.score
+- uid: STSIM.RankingPost.PostData.userID
+  name: userID
+  href: api/STSIM.RankingPost.PostData.html#STSIM_RankingPost_PostData_userID
+  commentId: F:STSIM.RankingPost.PostData.userID
+  fullName: STSIM.RankingPost.PostData.userID
+  nameWithType: RankingPost.PostData.userID
+- uid: STSIM.RankingPost.RankData
+  name: RankingPost.RankData
+  href: api/STSIM.RankingPost.RankData.html
+  commentId: T:STSIM.RankingPost.RankData
+  fullName: STSIM.RankingPost.RankData
+  nameWithType: RankingPost.RankData
+- uid: STSIM.RankingPost.RankData.name
+  name: name
+  href: api/STSIM.RankingPost.RankData.html#STSIM_RankingPost_RankData_name
+  commentId: F:STSIM.RankingPost.RankData.name
+  fullName: STSIM.RankingPost.RankData.name
+  nameWithType: RankingPost.RankData.name
+- uid: STSIM.RankingPost.RankData.score
+  name: score
+  href: api/STSIM.RankingPost.RankData.html#STSIM_RankingPost_RankData_score
+  commentId: F:STSIM.RankingPost.RankData.score
+  fullName: STSIM.RankingPost.RankData.score
+  nameWithType: RankingPost.RankData.score
+- uid: STSIM.RankingPost.rankingText
+  name: rankingText
+  href: api/STSIM.RankingPost.html#STSIM_RankingPost_rankingText
+  commentId: F:STSIM.RankingPost.rankingText
+  fullName: STSIM.RankingPost.rankingText
+  nameWithType: RankingPost.rankingText
+- uid: STSIM.RankingPost.ResponsData
+  name: RankingPost.ResponsData
+  href: api/STSIM.RankingPost.ResponsData.html
+  commentId: T:STSIM.RankingPost.ResponsData
+  fullName: STSIM.RankingPost.ResponsData
+  nameWithType: RankingPost.ResponsData
+- uid: STSIM.RankingPost.ResponsData.rank
+  name: rank
+  href: api/STSIM.RankingPost.ResponsData.html#STSIM_RankingPost_ResponsData_rank
+  commentId: F:STSIM.RankingPost.ResponsData.rank
+  fullName: STSIM.RankingPost.ResponsData.rank
+  nameWithType: RankingPost.ResponsData.rank
+- uid: STSIM.RankingPost.ResponsData.rank_data_Near
+  name: rank_data_Near
+  href: api/STSIM.RankingPost.ResponsData.html#STSIM_RankingPost_ResponsData_rank_data_Near
+  commentId: F:STSIM.RankingPost.ResponsData.rank_data_Near
+  fullName: STSIM.RankingPost.ResponsData.rank_data_Near
+  nameWithType: RankingPost.ResponsData.rank_data_Near
+- uid: STSIM.RankingPost.ResponsData.rank_data_Top
+  name: rank_data_Top
+  href: api/STSIM.RankingPost.ResponsData.html#STSIM_RankingPost_ResponsData_rank_data_Top
+  commentId: F:STSIM.RankingPost.ResponsData.rank_data_Top
+  fullName: STSIM.RankingPost.ResponsData.rank_data_Top
+  nameWithType: RankingPost.ResponsData.rank_data_Top
+- uid: STSIM.RankingPost.ResponsData.rank_name
+  name: rank_name
+  href: api/STSIM.RankingPost.ResponsData.html#STSIM_RankingPost_ResponsData_rank_name
+  commentId: F:STSIM.RankingPost.ResponsData.rank_name
+  fullName: STSIM.RankingPost.ResponsData.rank_name
+  nameWithType: RankingPost.ResponsData.rank_name
+- uid: STSIM.RankingPost.ResponsData.status
+  name: status
+  href: api/STSIM.RankingPost.ResponsData.html#STSIM_RankingPost_ResponsData_status
+  commentId: F:STSIM.RankingPost.ResponsData.status
+  fullName: STSIM.RankingPost.ResponsData.status
+  nameWithType: RankingPost.ResponsData.status
+- uid: STSIM.RankingPost.responseBack(STSIM.RankingPost.ResponsData)
+  name: responseBack(RankingPost.ResponsData)
+  href: api/STSIM.RankingPost.html#STSIM_RankingPost_responseBack_STSIM_RankingPost_ResponsData_
+  commentId: M:STSIM.RankingPost.responseBack(STSIM.RankingPost.ResponsData)
+  fullName: STSIM.RankingPost.responseBack(STSIM.RankingPost.ResponsData)
+  nameWithType: RankingPost.responseBack(RankingPost.ResponsData)
+- uid: STSIM.RankingPost.responseBack*
+  name: responseBack
+  href: api/STSIM.RankingPost.html#STSIM_RankingPost_responseBack_
+  commentId: Overload:STSIM.RankingPost.responseBack
+  isSpec: "True"
+  fullName: STSIM.RankingPost.responseBack
+  nameWithType: RankingPost.responseBack
+- uid: STSIM.RankingPost.sendPost(STSIM.RankingPost.PostData)
+  name: sendPost(RankingPost.PostData)
+  href: api/STSIM.RankingPost.html#STSIM_RankingPost_sendPost_STSIM_RankingPost_PostData_
+  commentId: M:STSIM.RankingPost.sendPost(STSIM.RankingPost.PostData)
+  fullName: STSIM.RankingPost.sendPost(STSIM.RankingPost.PostData)
+  nameWithType: RankingPost.sendPost(RankingPost.PostData)
+- uid: STSIM.RankingPost.sendPost*
+  name: sendPost
+  href: api/STSIM.RankingPost.html#STSIM_RankingPost_sendPost_
+  commentId: Overload:STSIM.RankingPost.sendPost
+  isSpec: "True"
+  fullName: STSIM.RankingPost.sendPost
+  nameWithType: RankingPost.sendPost
 - uid: STSIM.Rigidbody2DVelocity
   name: Rigidbody2DVelocity
   href: api/STSIM.Rigidbody2DVelocity.html
@@ -3346,12 +3607,24 @@ references:
   commentId: F:STSIM.TitleGuiController.configController
   fullName: STSIM.TitleGuiController.configController
   nameWithType: TitleGuiController.configController
+- uid: STSIM.TitleGuiController.groundSystem
+  name: groundSystem
+  href: api/STSIM.TitleGuiController.html#STSIM_TitleGuiController_groundSystem
+  commentId: F:STSIM.TitleGuiController.groundSystem
+  fullName: STSIM.TitleGuiController.groundSystem
+  nameWithType: TitleGuiController.groundSystem
 - uid: STSIM.TitleGuiController.groundSystemControll
   name: groundSystemControll
   href: api/STSIM.TitleGuiController.html#STSIM_TitleGuiController_groundSystemControll
   commentId: F:STSIM.TitleGuiController.groundSystemControll
   fullName: STSIM.TitleGuiController.groundSystemControll
   nameWithType: TitleGuiController.groundSystemControll
+- uid: STSIM.TitleGuiController.groundSystemPrefab
+  name: groundSystemPrefab
+  href: api/STSIM.TitleGuiController.html#STSIM_TitleGuiController_groundSystemPrefab
+  commentId: F:STSIM.TitleGuiController.groundSystemPrefab
+  fullName: STSIM.TitleGuiController.groundSystemPrefab
+  nameWithType: TitleGuiController.groundSystemPrefab
 - uid: STSIM.TitleGuiController.OnClickBack
   name: OnClickBack()
   href: api/STSIM.TitleGuiController.html#STSIM_TitleGuiController_OnClickBack
@@ -3591,6 +3864,22 @@ references:
   isSpec: "True"
   fullName: STSIM.TrafficLightController.activTraficLight
   nameWithType: TrafficLightController.activTraficLight
+- uid: STSIM.TrafficLightController.addNodeCheckSection(STSIM.NodoInfo,STSIM.RoadInfo,System.Collections.Generic.List{STSIM.NodeLinkDate},System.Single)
+  name: addNodeCheckSection(NodoInfo, RoadInfo, List<NodeLinkDate>, Single)
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_addNodeCheckSection_STSIM_NodoInfo_STSIM_RoadInfo_System_Collections_Generic_List_STSIM_NodeLinkDate__System_Single_
+  commentId: M:STSIM.TrafficLightController.addNodeCheckSection(STSIM.NodoInfo,STSIM.RoadInfo,System.Collections.Generic.List{STSIM.NodeLinkDate},System.Single)
+  name.vb: addNodeCheckSection(NodoInfo, RoadInfo, List(Of NodeLinkDate), Single)
+  fullName: STSIM.TrafficLightController.addNodeCheckSection(STSIM.NodoInfo, STSIM.RoadInfo, System.Collections.Generic.List<STSIM.NodeLinkDate>, System.Single)
+  fullName.vb: STSIM.TrafficLightController.addNodeCheckSection(STSIM.NodoInfo, STSIM.RoadInfo, System.Collections.Generic.List(Of STSIM.NodeLinkDate), System.Single)
+  nameWithType: TrafficLightController.addNodeCheckSection(NodoInfo, RoadInfo, List<NodeLinkDate>, Single)
+  nameWithType.vb: TrafficLightController.addNodeCheckSection(NodoInfo, RoadInfo, List(Of NodeLinkDate), Single)
+- uid: STSIM.TrafficLightController.addNodeCheckSection*
+  name: addNodeCheckSection
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_addNodeCheckSection_
+  commentId: Overload:STSIM.TrafficLightController.addNodeCheckSection
+  isSpec: "True"
+  fullName: STSIM.TrafficLightController.addNodeCheckSection
+  nameWithType: TrafficLightController.addNodeCheckSection
 - uid: STSIM.TrafficLightController.addSection(System.Single)
   name: addSection(Single)
   href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_addSection_System_Single_
@@ -3604,12 +3893,18 @@ references:
   isSpec: "True"
   fullName: STSIM.TrafficLightController.addSection
   nameWithType: TrafficLightController.addSection
-- uid: STSIM.TrafficLightController.checkCanPassing(STSIM.TrafficLightController.SectionInfo)
-  name: checkCanPassing(TrafficLightController.SectionInfo)
-  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_checkCanPassing_STSIM_TrafficLightController_SectionInfo_
-  commentId: M:STSIM.TrafficLightController.checkCanPassing(STSIM.TrafficLightController.SectionInfo)
-  fullName: STSIM.TrafficLightController.checkCanPassing(STSIM.TrafficLightController.SectionInfo)
-  nameWithType: TrafficLightController.checkCanPassing(TrafficLightController.SectionInfo)
+- uid: STSIM.TrafficLightController.BlueLightColor
+  name: BlueLightColor
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_BlueLightColor
+  commentId: F:STSIM.TrafficLightController.BlueLightColor
+  fullName: STSIM.TrafficLightController.BlueLightColor
+  nameWithType: TrafficLightController.BlueLightColor
+- uid: STSIM.TrafficLightController.checkCanPassing(STSIM.RoadInfo)
+  name: checkCanPassing(RoadInfo)
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_checkCanPassing_STSIM_RoadInfo_
+  commentId: M:STSIM.TrafficLightController.checkCanPassing(STSIM.RoadInfo)
+  fullName: STSIM.TrafficLightController.checkCanPassing(STSIM.RoadInfo)
+  nameWithType: TrafficLightController.checkCanPassing(RoadInfo)
 - uid: STSIM.TrafficLightController.checkCanPassing*
   name: checkCanPassing
   href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_checkCanPassing_
@@ -3617,6 +3912,32 @@ references:
   isSpec: "True"
   fullName: STSIM.TrafficLightController.checkCanPassing
   nameWithType: TrafficLightController.checkCanPassing
+- uid: STSIM.TrafficLightController.containSectionCount(STSIM.TrafficLightController.SectionInfo)
+  name: containSectionCount(TrafficLightController.SectionInfo)
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_containSectionCount_STSIM_TrafficLightController_SectionInfo_
+  commentId: M:STSIM.TrafficLightController.containSectionCount(STSIM.TrafficLightController.SectionInfo)
+  fullName: STSIM.TrafficLightController.containSectionCount(STSIM.TrafficLightController.SectionInfo)
+  nameWithType: TrafficLightController.containSectionCount(TrafficLightController.SectionInfo)
+- uid: STSIM.TrafficLightController.containSectionCount*
+  name: containSectionCount
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_containSectionCount_
+  commentId: Overload:STSIM.TrafficLightController.containSectionCount
+  isSpec: "True"
+  fullName: STSIM.TrafficLightController.containSectionCount
+  nameWithType: TrafficLightController.containSectionCount
+- uid: STSIM.TrafficLightController.CreateTrafficLight(UnityEngine.Vector2)
+  name: CreateTrafficLight(Vector2)
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_CreateTrafficLight_UnityEngine_Vector2_
+  commentId: M:STSIM.TrafficLightController.CreateTrafficLight(UnityEngine.Vector2)
+  fullName: STSIM.TrafficLightController.CreateTrafficLight(UnityEngine.Vector2)
+  nameWithType: TrafficLightController.CreateTrafficLight(Vector2)
+- uid: STSIM.TrafficLightController.CreateTrafficLight*
+  name: CreateTrafficLight
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_CreateTrafficLight_
+  commentId: Overload:STSIM.TrafficLightController.CreateTrafficLight
+  isSpec: "True"
+  fullName: STSIM.TrafficLightController.CreateTrafficLight
+  nameWithType: TrafficLightController.CreateTrafficLight
 - uid: STSIM.TrafficLightController.deleteSection(STSIM.TrafficLightController.SectionInfo)
   name: deleteSection(TrafficLightController.SectionInfo)
   href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_deleteSection_STSIM_TrafficLightController_SectionInfo_
@@ -3630,6 +3951,32 @@ references:
   isSpec: "True"
   fullName: STSIM.TrafficLightController.deleteSection
   nameWithType: TrafficLightController.deleteSection
+- uid: STSIM.TrafficLightController.delNodeCheckSection(STSIM.NodeLinkDate)
+  name: delNodeCheckSection(NodeLinkDate)
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_delNodeCheckSection_STSIM_NodeLinkDate_
+  commentId: M:STSIM.TrafficLightController.delNodeCheckSection(STSIM.NodeLinkDate)
+  fullName: STSIM.TrafficLightController.delNodeCheckSection(STSIM.NodeLinkDate)
+  nameWithType: TrafficLightController.delNodeCheckSection(NodeLinkDate)
+- uid: STSIM.TrafficLightController.delNodeCheckSection*
+  name: delNodeCheckSection
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_delNodeCheckSection_
+  commentId: Overload:STSIM.TrafficLightController.delNodeCheckSection
+  isSpec: "True"
+  fullName: STSIM.TrafficLightController.delNodeCheckSection
+  nameWithType: TrafficLightController.delNodeCheckSection
+- uid: STSIM.TrafficLightController.getContinueRoad(STSIM.RoadInfo)
+  name: getContinueRoad(RoadInfo)
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_getContinueRoad_STSIM_RoadInfo_
+  commentId: M:STSIM.TrafficLightController.getContinueRoad(STSIM.RoadInfo)
+  fullName: STSIM.TrafficLightController.getContinueRoad(STSIM.RoadInfo)
+  nameWithType: TrafficLightController.getContinueRoad(RoadInfo)
+- uid: STSIM.TrafficLightController.getContinueRoad*
+  name: getContinueRoad
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_getContinueRoad_
+  commentId: Overload:STSIM.TrafficLightController.getContinueRoad
+  isSpec: "True"
+  fullName: STSIM.TrafficLightController.getContinueRoad
+  nameWithType: TrafficLightController.getContinueRoad
 - uid: STSIM.TrafficLightController.getSectionCount
   name: getSectionCount()
   href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_getSectionCount
@@ -3649,6 +3996,12 @@ references:
   commentId: F:STSIM.TrafficLightController.maxint
   fullName: STSIM.TrafficLightController.maxint
   nameWithType: TrafficLightController.maxint
+- uid: STSIM.TrafficLightController.RedLightColor
+  name: RedLightColor
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_RedLightColor
+  commentId: F:STSIM.TrafficLightController.RedLightColor
+  fullName: STSIM.TrafficLightController.RedLightColor
+  nameWithType: TrafficLightController.RedLightColor
 - uid: STSIM.TrafficLightController.sectionCount
   name: sectionCount
   href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_sectionCount
@@ -3661,12 +4014,50 @@ references:
   commentId: T:STSIM.TrafficLightController.SectionInfo
   fullName: STSIM.TrafficLightController.SectionInfo
   nameWithType: TrafficLightController.SectionInfo
+- uid: STSIM.TrafficLightController.SectionInfo.lightList
+  name: lightList
+  href: api/STSIM.TrafficLightController.SectionInfo.html#STSIM_TrafficLightController_SectionInfo_lightList
+  commentId: F:STSIM.TrafficLightController.SectionInfo.lightList
+  fullName: STSIM.TrafficLightController.SectionInfo.lightList
+  nameWithType: TrafficLightController.SectionInfo.lightList
 - uid: STSIM.TrafficLightController.SectionInfo.switchingInterval
   name: switchingInterval
   href: api/STSIM.TrafficLightController.SectionInfo.html#STSIM_TrafficLightController_SectionInfo_switchingInterval
   commentId: F:STSIM.TrafficLightController.SectionInfo.switchingInterval
   fullName: STSIM.TrafficLightController.SectionInfo.switchingInterval
   nameWithType: TrafficLightController.SectionInfo.switchingInterval
+- uid: STSIM.TrafficLightController.selectSectionInfo(STSIM.RoadInfo,System.Single)
+  name: selectSectionInfo(RoadInfo, Single)
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_selectSectionInfo_STSIM_RoadInfo_System_Single_
+  commentId: M:STSIM.TrafficLightController.selectSectionInfo(STSIM.RoadInfo,System.Single)
+  fullName: STSIM.TrafficLightController.selectSectionInfo(STSIM.RoadInfo, System.Single)
+  nameWithType: TrafficLightController.selectSectionInfo(RoadInfo, Single)
+- uid: STSIM.TrafficLightController.selectSectionInfo*
+  name: selectSectionInfo
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_selectSectionInfo_
+  commentId: Overload:STSIM.TrafficLightController.selectSectionInfo
+  isSpec: "True"
+  fullName: STSIM.TrafficLightController.selectSectionInfo
+  nameWithType: TrafficLightController.selectSectionInfo
+- uid: STSIM.TrafficLightController.trafficLightPrefab
+  name: trafficLightPrefab
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_trafficLightPrefab
+  commentId: F:STSIM.TrafficLightController.trafficLightPrefab
+  fullName: STSIM.TrafficLightController.trafficLightPrefab
+  nameWithType: TrafficLightController.trafficLightPrefab
+- uid: STSIM.TrafficLightController.UpdateLight
+  name: UpdateLight()
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_UpdateLight
+  commentId: M:STSIM.TrafficLightController.UpdateLight
+  fullName: STSIM.TrafficLightController.UpdateLight()
+  nameWithType: TrafficLightController.UpdateLight()
+- uid: STSIM.TrafficLightController.UpdateLight*
+  name: UpdateLight
+  href: api/STSIM.TrafficLightController.html#STSIM_TrafficLightController_UpdateLight_
+  commentId: Overload:STSIM.TrafficLightController.UpdateLight
+  isSpec: "True"
+  fullName: STSIM.TrafficLightController.UpdateLight
+  nameWithType: TrafficLightController.UpdateLight
 - uid: STSIM.TrafficSide
   name: TrafficSide
   href: api/STSIM.TrafficSide.html
